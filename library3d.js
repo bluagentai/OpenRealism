@@ -214,6 +214,7 @@ function init() {
   scene.fog = new THREE.FogExp2(0x0b0806, 0.052);
   scene.background = new THREE.Color(0x0b0806);
   camera = new THREE.PerspectiveCamera(58, innerWidth / innerHeight, 0.05, 60);
+  camera.up.set(0, -1, 0); // roll view 180° — counter the flipped framebuffer on this machine
   camera.position.set(0, 1.6, 2);
   let tries = 0;
   function makeRenderer() {
