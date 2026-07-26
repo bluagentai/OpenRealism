@@ -100,8 +100,8 @@ function bookcaseWall(group, x, z0, len, side, wingBooks, startIdx, perRow) {
           covMat
         ];
         const m = new THREE.Mesh(new THREE.BoxGeometry(0.24, bh, bw), mats);
-        m.rotation.x = lean;
-        m.position.set(x - side * (0.02 + (hh % 5) * 0.008), ry + bh / 2, zc2 - bw / 2);
+        m.rotation.x = Math.PI + lean; // 180° flip so spines read right-side up
+        m.position.set(x - side * (0.02 + (hh % 5) * 0.008), ry - 0.005 + bh / 2, zc2 - bw / 2); // flush on the shelf board
         m.userData.i = bk.i; m.userData.baseX = m.position.x;
         group.add(m); books.push(m);
         zc2 -= bw + 0.004 + (hh % 3) * 0.004;
