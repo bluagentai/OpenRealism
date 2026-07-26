@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/classical-94c67bde-4326-4e6f-ab83-9f754e9b486d/styles.css">
+<script src="_ds/classical-94c67bde-4326-4e6f-ab83-9f754e9b486d/_ds_bundle.js"></script>
+<script src="image-slot.js"></script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+<script type="module" src="library3d.js"></script>
+<style>
+body{margin:0;background:#0d0b0a;overflow-x:hidden}
+a{color:var(--color-accent);text-underline-offset:3px}
+a:hover{color:var(--color-accent-300)}
+@keyframes lw-up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes lw-turn{from{transform:rotateY(-96deg)}to{transform:rotateY(0deg)}}
+@keyframes lw-scrim{from{opacity:0}to{opacity:1}}
+@keyframes lw-cue{0%,100%{opacity:.35;transform:translateY(0)}50%{opacity:1;transform:translateY(7px)}}
+@keyframes lw-lamp{0%,100%{opacity:.5}50%{opacity:.78}}
+@keyframes lw-dust{0%{transform:translate(0,0);opacity:0}12%{opacity:.65}100%{transform:translate(46px,130px);opacity:0}}
+</style>
+</helmet>
+
+<div style="position:relative;background:var(--color-bg)">
+
+<nav class="nav" style="position:fixed;top:0;left:0;right:0;z-index:70;display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);padding:var(--space-3) var(--space-6);background:color-mix(in srgb, #0d0b0a 72%, transparent);backdrop-filter:blur(9px);border-bottom:1px solid color-mix(in srgb, #b68235 26%, transparent)">
+  <a class="nav-brand" href="#top" style="display:flex;align-items:center;text-decoration:none;background:#f6f4f0;border:1px solid color-mix(in srgb, #b68235 45%, transparent);border-radius:var(--radius-sm);padding:4px 10px"><img src="uploads/OpenRealism_TopLeftLogo.png" alt="OpenRealism" style="display:block;height:20px;width:auto"></a>
+  <div style="display:flex;align-items:center;gap:var(--space-4);font-family:var(--font-heading);font-size:13.5px;letter-spacing:.05em;text-transform:uppercase">
+    <a href="#top" style="color:var(--color-accent-200);text-decoration:none">Home</a>
+    <a href="#wings" style="color:var(--color-neutral-400);text-decoration:none">Books</a>
+    <a href="#greatbooks" style="color:var(--color-neutral-400);text-decoration:none">Programs</a>
+    <a href="#agent" style="color:var(--color-neutral-400);text-decoration:none">Agents</a>
+    <a href="#plan" style="color:var(--color-neutral-400);text-decoration:none">Resources</a>
+  </div>
+  <div style="display:flex;align-items:center;gap:var(--space-2)">
+    <button class="btn btn-secondary" onClick="{{ toggleSound }}" title="Room tone" style="color:var(--color-accent-200);border-color:color-mix(in srgb, #b68235 40%, transparent);font-size:12px;letter-spacing:.06em;text-transform:uppercase">{{ soundLabel }}</button>
+    <button class="btn btn-primary" onClick="{{ toggleFind }}" style="color:var(--color-accent-200);border-color:var(--color-accent);font-size:12px;letter-spacing:.06em;text-transform:uppercase">Find a book</button>
+  </div>
+</nav>
+
+<section id="top" data-screen-label="Entrance" style="position:relative;min-height:100vh;display:grid;grid-template-columns:repeat(auto-fit,minmax(430px,1fr));align-items:center;gap:var(--space-8);padding:120px var(--space-8) var(--space-8);background:var(--color-bg)">
+  <div style="max-width:640px;margin:0 auto;width:100%">
+    <img src="uploads/OpenRealism_Web Banner.png" alt="OpenRealism — Good Books Program, Integrated Humanities Revival" style="display:block;height:104px;width:auto;margin:0 0 var(--space-4) -10px;mix-blend-mode:multiply">
+    <div style="font-family:var(--font-heading);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--color-accent-700);font-feature-settings:'tnum';margin-bottom:var(--space-4)">A walk through the Thousand Good Books</div>
+    <h1 style="font-size:78px;font-weight:400;line-height:.98;letter-spacing:-.02em;margin:0 0 var(--space-4)">The Long Room</h1>
+    <div style="height:1px;background:var(--color-divider);margin:var(--space-4) 0 var(--space-6)"></div>
+    <p style="font-size:17.5px;line-height:1.7;text-align:justify;hyphens:auto;color:var(--color-neutral-800);margin-bottom:var(--space-4)">Four halls, five hundred and sixty books. John Senior's list is not a syllabus to be finished — it is a house to be lived in. Walk it the way a child walks a library: slowly, sideways, pulling down whatever catches the eye.</p>
+    <p style="font-size:15px;line-height:1.7;text-align:justify;color:var(--color-neutral-700);margin-bottom:var(--space-6)">Scroll to walk. Every spine on these shelves is a real title from the list, and every one of them opens.</p>
+    <div style="display:flex;gap:var(--space-3);align-items:center;flex-wrap:wrap">
+      <a class="btn btn-primary" href="#wings">Begin the walk</a>
+      <a class="btn btn-secondary" href="#greatbooks">The Great Books wing</a>
+    </div>
+    <div style="display:flex;gap:var(--space-6);margin-top:var(--space-8);padding-top:var(--space-4);border-top:1px solid var(--color-divider);font-feature-settings:'tnum'">
+      <div><div style="font-family:var(--font-heading);font-size:30px;line-height:1">560</div><div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:4px">Good books</div></div>
+      <div><div style="font-family:var(--font-heading);font-size:30px;line-height:1">4</div><div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:4px">Halls</div></div>
+      <div><div style="font-family:var(--font-heading);font-size:30px;line-height:1">2–20</div><div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:4px">Years</div></div>
+    </div>
+  </div>
+  <div style="position:relative;height:78vh;padding:var(--space-6) var(--space-8) var(--space-6) 0">
+    <div class="plate" style="position:relative;width:100%;height:100%;box-shadow:var(--shadow-lg)">
+      <image-slot id="lw-hero" shape="rect" src="https://d8j0ntlcm91z4.cloudfront.net/user_3H1R1Ba8jsVYrPgmzK9ct7IIwH3/hf_20260726_024254_4c31695a-da1e-4f7e-b9c0-45bb0e57c24a.png" placeholder="Drop a photograph of the Long Room — Trinity College Dublin"></image-slot>
+    </div>
+    <div style="position:absolute;bottom:calc(var(--space-6) - 26px);right:var(--space-8);font-size:11px;color:var(--color-neutral-600);letter-spacing:.06em">Plate I — the hall as it stands today</div>
+  </div>
+  <div style="position:absolute;bottom:var(--space-6);left:50%;margin-left:-60px;width:120px;text-align:center;font-family:var(--font-heading);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--color-neutral-600);animation:lw-cue 2.6s ease-in-out infinite">Scroll</div>
+</section>
+
+<div id="wings" data-track-root>
+<div data-three3d style="position:fixed;top:0;left:0;right:0;bottom:0;z-index:0;opacity:0;transition:opacity .6s ease;pointer-events:none"></div>
+<sc-for list="{{ wings }}" as="w" hint-placeholder-count="4">
+  <section data-wing="{{ w.id }}" data-screen-label="{{ w.label }}" style="position:relative;height:{{ w.scrollH }};overflow:hidden;background:transparent">
+    <div data-stage style="position:absolute;top:0;left:0;width:100%;height:100vh;overflow:hidden;will-change:transform;pointer-events:none">
+
+
+      <div style="position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 200px 60px #060504"></div>
+
+      <div data-plaque style="pointer-events:auto;position:absolute;left:var(--space-8);top:50%;width:412px;margin-top:-190px;padding:var(--space-6);background:color-mix(in srgb, #f3f2f2 95%, transparent);border:1px solid var(--color-divider);box-shadow:var(--shadow-lg);will-change:transform,opacity">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-3);margin-bottom:var(--space-3)">
+          <span style="font-family:var(--font-heading);font-size:34px;line-height:1;color:var(--color-accent-600);font-feature-settings:'tnum'">{{ w.numeral }}</span>
+          <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-neutral-600);font-feature-settings:'tnum'">{{ w.ages }}</span>
+        </div>
+        <h2 style="font-size:38px;font-weight:400;line-height:1.02;letter-spacing:-.015em;margin:0 0 var(--space-3)">{{ w.title }}</h2>
+        <div style="height:1px;background:var(--color-divider);margin-bottom:var(--space-3)"></div>
+        <p style="font-size:14.5px;line-height:1.68;text-align:justify;hyphens:auto;color:var(--color-neutral-800);margin-bottom:var(--space-4)">{{ w.copy }}</p>
+        <div style="display:flex;align-items:center;gap:var(--space-3);flex-wrap:wrap">
+          <span class="tag tag-outline" style="font-feature-settings:'tnum'">{{ w.countLabel }}</span>
+          <a class="btn btn-ghost" href="{{ w.music }}" target="_blank" rel="noopener" style="font-size:12.5px;padding-left:0">♪ {{ w.composer }}</a>
+        </div>
+        <button class="btn btn-secondary btn-block" onClick="{{ browseWing }}" data-wing-id="{{ w.id }}" style="margin-top:var(--space-4)">{{ w.browseLabel }}</button>
+      </div>
+
+      <div style="position:absolute;right:var(--space-8);bottom:var(--space-6);font-family:var(--font-heading);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:color-mix(in srgb, #b68235 62%, transparent);font-feature-settings:'tnum'">{{ w.label }}</div>
+    </div>
+  </section>
+</sc-for>
+
+<section id="greatbooks" data-wing="gb" data-screen-label="Great Books wing" style="position:relative;height:220vh;overflow:hidden;background:transparent">
+  <div data-stage style="position:absolute;top:0;left:0;width:100%;height:100vh;overflow:hidden;will-change:transform;pointer-events:none">
+
+    <div style="position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 240px 80px #050404"></div>
+
+    <div data-plaque style="pointer-events:auto;position:absolute;left:50%;bottom:5vh;width:620px;margin-left:-310px;padding:var(--space-6) var(--space-8);text-align:center;background:color-mix(in srgb, #100c0a 88%, transparent);border:1px solid color-mix(in srgb, #b68235 40%, transparent);backdrop-filter:blur(3px);will-change:transform,opacity">
+      <div style="font-family:var(--font-heading);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--color-accent-300);margin-bottom:var(--space-4)">The fifth wing — opening soon</div>
+      <h2 style="font-size:52px;font-weight:400;line-height:1;letter-spacing:-.02em;color:var(--color-neutral-100);margin:0 0 var(--space-4)">Faith &amp; Reason</h2>
+      <div style="height:1px;background:color-mix(in srgb, #b68235 34%, transparent);margin:0 auto var(--space-4);width:120px"></div>
+      <p style="font-size:16px;line-height:1.72;color:var(--color-neutral-300);margin-bottom:var(--space-6)">See how honest questioning and divine revelation work together without conflict. The Great Books Program picks up where the good books leave off — Plato and Augustine, Aristotle and Aquinas, in the same room and in conversation.</p>
+      <form onSubmit="{{ notify }}" style="display:flex;gap:var(--space-2);justify-content:center">
+        <input class="input" type="email" required placeholder="Your email" style="flex:1 1 auto;max-width:280px;background:transparent;color:var(--color-neutral-100);border-color:color-mix(in srgb, #b68235 40%, transparent)">
+        <button class="btn btn-primary" type="submit" style="color:var(--color-accent-300);border-color:var(--color-accent)">Notify me</button>
+      </form>
+      <div style="font-size:12px;color:var(--color-neutral-500);margin-top:var(--space-3)">{{ notifyMsg }}</div>
+    </div>
+  </div>
+</section>
+</div>
+
+<section id="plan" data-screen-label="Reading plan" style="position:relative;background:var(--color-bg);padding:var(--space-8) var(--space-8) calc(var(--space-8) * 2)">
+  <div style="max-width:1080px;margin:0 auto">
+    <div style="text-align:center;margin-bottom:var(--space-8)">
+      <div style="font-family:var(--font-heading);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:var(--space-3)">At the end of the hall</div>
+      <h2 style="font-size:52px;font-weight:400;letter-spacing:-.02em;margin:0">Take a plan home with you</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-6);align-items:stretch">
+      <div class="card elev-sm" style="display:flex;flex-direction:column;gap:var(--space-2);padding:var(--space-6)">
+        <div class="card-kicker" style="font-family:var(--font-heading);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700)">One</div>
+        <h3 class="card-title" style="font-size:26px;font-weight:400;margin:0">A year of reading</h3>
+        <p class="card-body" style="font-size:14.5px;line-height:1.7;color:var(--color-neutral-800);flex:1 1 auto">Pick a hall and we lay its titles across fifty-two weeks — aloud for the little ones, alone for the older. Adjustable, printable, no login required.</p>
+        <button class="btn btn-primary" onClick="{{ openPlan }}" style="align-self:flex-start">Build my plan</button>
+      </div>
+      <div class="card elev-sm" style="display:flex;flex-direction:column;gap:var(--space-2);padding:var(--space-6)">
+        <div class="card-kicker" style="font-family:var(--font-heading);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700)">Two</div>
+        <h3 class="card-title" style="font-size:26px;font-weight:400;margin:0">The letter</h3>
+        <p class="card-body" style="font-size:14.5px;line-height:1.7;color:var(--color-neutral-800);flex:1 1 auto">One book a week, with a paragraph on why it belongs at that age and where to find it free. Sent Sunday evenings.</p>
+        <form onSubmit="{{ subscribe }}" style="display:flex;gap:var(--space-2);align-items:center;flex-wrap:wrap">
+          <input class="input" type="email" required placeholder="you@home.org" style="flex:1 1 150px">
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+        <div style="font-size:12px;color:var(--color-neutral-600)">{{ subMsg }}</div>
+      </div>
+      <div id="agent" class="card elev-sm" style="display:flex;flex-direction:column;gap:var(--space-2);padding:var(--space-6);border-color:color-mix(in srgb, #b68235 45%, transparent)">
+        <div class="card-kicker" style="font-family:var(--font-heading);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700)">Three</div>
+        <h3 class="card-title" style="font-size:26px;font-weight:400;margin:0">Ask the librarian</h3>
+        <p class="card-body" style="font-size:14.5px;line-height:1.7;color:var(--color-neutral-800);flex:1 1 auto">An agent who has read the whole list. Tell it your child's age and what they loved last, and it will pull three books off these shelves and say why.</p>
+        <div style="display:flex;gap:var(--space-2);flex-wrap:wrap">
+          <button class="btn btn-secondary" onClick="{{ askLibrarian }}">“My 9-year-old loved Treasure Island”</button>
+        </div>
+        <button class="btn btn-primary" onClick="{{ askLibrarian }}" style="align-self:flex-start">Open the librarian</button>
+      </div>
+    </div>
+    <div class="hr" style="margin:calc(var(--space-8) * 1.4) 0 var(--space-6)"></div>
+    <div style="display:flex;justify-content:space-between;gap:var(--space-6);flex-wrap:wrap;font-size:13px;color:var(--color-neutral-600)">
+      <div>The Thousand Good Books — from <em>The Death of Christian Culture</em> by John Senior (IHS Press).</div>
+      <div style="display:flex;gap:var(--space-4)"><a href="#top">Back to the entrance</a><a href="#greatbooks">Great Books wing</a></div>
+    </div>
+  </div>
+</section>
+
+<div data-chrome style="position:fixed;left:var(--space-6);bottom:var(--space-6);z-index:60;opacity:0;pointer-events:none;transition:opacity .4s ease">
+  <div style="padding:var(--space-3) var(--space-4);background:color-mix(in srgb, #0d0b0a 84%, transparent);border:1px solid color-mix(in srgb, #b68235 28%, transparent);backdrop-filter:blur(8px);min-width:210px">
+    <div style="font-family:var(--font-heading);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-500);margin-bottom:var(--space-2)">Floor plan</div>
+    <div style="display:flex;flex-direction:column;gap:6px">
+      <sc-for list="{{ mapItems }}" as="m" hint-placeholder-count="5">
+        <button type="button" data-map="{{ m.id }}" onClick="{{ jumpTo }}" style="position:relative;display:flex;align-items:center;gap:8px;padding:5px 7px;background:transparent;border:1px solid rgba(182,130,53,.16);cursor:pointer;text-align:left;font-family:var(--font-heading);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-neutral-500)" style-hover="border-color:rgba(182,130,53,.5);color:#facb8d">
+          <span data-map-fill style="position:absolute;left:0;top:0;bottom:0;width:0%;background:rgba(182,130,53,.18);pointer-events:none"></span>
+          <span style="position:relative;font-feature-settings:'tnum';opacity:.7">{{ m.numeral }}</span>
+          <span style="position:relative">{{ m.short }}</span>
+        </button>
+      </sc-for>
+    </div>
+  </div>
+</div>
+
+<div data-chrome style="position:fixed;right:var(--space-6);top:50%;margin-top:-90px;z-index:60;display:flex;flex-direction:column;gap:14px;align-items:center;opacity:0;pointer-events:none;transition:opacity .4s ease">
+  <sc-for list="{{ mapItems }}" as="m" hint-placeholder-count="5">
+    <button type="button" data-dot="{{ m.id }}" onClick="{{ jumpTo }}" title="{{ m.short }}" style="width:9px;height:9px;padding:0;border-radius:50%;border:1px solid var(--color-accent-500);background:transparent;cursor:pointer" style-hover="background:var(--color-accent-400)"></button>
+  </sc-for>
+</div>
+
+<sc-if value="{{ findOpen }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;inset:0;z-index:90;background:rgba(8,6,5,.72);backdrop-filter:blur(4px);animation:lw-scrim .2s ease-out;display:flex;align-items:flex-start;justify-content:center;padding:96px var(--space-6) var(--space-6)" onClick="{{ closeFind }}">
+    <div onClick="{{ stop }}" style="width:100%;max-width:720px;background:var(--color-bg);border:1px solid var(--color-divider);box-shadow:var(--shadow-lg);animation:lw-up .28s ease-out">
+      <div style="padding:var(--space-4) var(--space-6);border-bottom:1px solid var(--color-divider);display:flex;gap:var(--space-3);align-items:center">
+        <input class="input" data-find-input type="text" value="{{ query }}" onInput="{{ onQuery }}" placeholder="Search 560 titles and authors…" style="flex:1 1 auto;border:0;background:transparent;font-family:var(--font-heading);font-size:22px;padding:0">
+        <sc-if value="{{ hasFilter }}" hint-placeholder-val="{{ false }}">
+          <button class="tag tag-accent" onClick="{{ clearFilter }}" style="cursor:pointer;border:0;white-space:nowrap">{{ filterLabel }} ✕</button>
+        </sc-if>
+        <button class="btn btn-ghost" onClick="{{ closeFind }}" style="font-size:12px;letter-spacing:.1em;text-transform:uppercase">Esc</button>
+      </div>
+      <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;padding:var(--space-2) var(--space-4) var(--space-3);border-bottom:1px solid var(--color-divider)">
+        <sc-for list="{{ filters }}" as="ft" hint-placeholder-count="5">
+          <button type="button" data-f="{{ ft.id }}" onClick="{{ setFilter }}" style="cursor:pointer;padding:3px 10px;border-radius:var(--radius-md);border:1px solid {{ ft.bc }};background:{{ ft.bgc }};color:{{ ft.fg }};font-family:var(--font-heading);font-weight:var(--font-heading-weight);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase" style-hover="border-color:var(--color-accent)">{{ ft.label }}</button>
+        </sc-for>
+        <span style="margin-left:auto;display:flex;gap:6px;align-items:center">
+          <span style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-neutral-500)">Sort</span>
+          <sc-for list="{{ sorts }}" as="so" hint-placeholder-count="3">
+            <button type="button" data-s="{{ so.id }}" onClick="{{ setSort }}" style="cursor:pointer;padding:3px 10px;border-radius:var(--radius-md);border:1px solid {{ so.bc }};background:{{ so.bgc }};color:{{ so.fg }};font-family:var(--font-heading);font-weight:var(--font-heading-weight);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase" style-hover="border-color:var(--color-accent)">{{ so.label }}</button>
+          </sc-for>
+        </span>
+      </div>
+      <div style="max-height:52vh;overflow-y:auto">
+        <sc-for list="{{ results }}" as="r" hint-placeholder-count="6">
+          <button type="button" data-book="{{ r.i }}" onClick="{{ pickResult }}" style="display:grid;grid-template-columns:1fr auto;gap:var(--space-4);align-items:baseline;width:100%;padding:var(--space-3) var(--space-6);background:transparent;border:0;border-bottom:1px solid var(--color-divider);cursor:pointer;text-align:left" style-hover="background:var(--color-accent-100)">
+            <span style="min-width:0"><span style="display:block;font-family:var(--font-heading);font-size:18px;color:var(--color-text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ r.title }}</span><span style="display:block;font-size:13px;color:var(--color-neutral-700);margin-top:2px">{{ r.author }}</span></span>
+            <span class="tag tag-outline" style="white-space:nowrap;font-size:10px">{{ r.wingShort }}</span>
+          </button>
+        </sc-for>
+      </div>
+      <div style="padding:var(--space-3) var(--space-6);font-size:12px;color:var(--color-neutral-600);display:flex;justify-content:space-between">
+        <span>{{ resultNote }}</span><span>Enter opens the first result</span>
+      </div>
+    </div>
+  </div>
+</sc-if>
+
+<sc-if value="{{ bookOpen }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;inset:0;z-index:95;background:rgba(8,6,5,.82);backdrop-filter:blur(5px);animation:lw-scrim .22s ease-out;display:flex;align-items:center;justify-content:center;padding:var(--space-6);overflow:auto" onClick="{{ closeBook }}">
+    <div onClick="{{ stop }}" style="perspective:2200px">
+      <sc-if value="{{ isSpread }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;box-shadow:var(--shadow-lg);transform-style:preserve-3d">
+          <div style="width:400px;min-height:470px;padding:var(--space-6) var(--space-8);background:linear-gradient(275deg,#e6e2d9 0%,#f4f1ea 26%,#f6f4ee 100%);border:1px solid var(--color-divider);border-right:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+            <div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:var(--space-6)">{{ bookWing }}</div>
+            <div style="width:64px;height:1px;background:var(--color-divider);margin-bottom:var(--space-6)"></div>
+            <div style="font-family:var(--font-heading);font-size:44px;line-height:1.06;letter-spacing:-.02em;margin-bottom:var(--space-4)">{{ bookTitle }}</div>
+            <div style="font-family:var(--font-body);font-style:italic;font-size:17px;color:var(--color-neutral-700)">{{ bookAuthor }}</div>
+            <div style="margin-top:auto;padding-top:var(--space-8);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-neutral-500);font-feature-settings:'tnum'">{{ bookNoLabel }}</div>
+          </div>
+          <div style="transform-origin:left center;animation:lw-turn .62s cubic-bezier(.2,.7,.25,1) both;width:400px;min-height:470px;padding:var(--space-6) var(--space-8);background:linear-gradient(85deg,#e6e2d9 0%,#f4f1ea 22%,#f6f4ee 100%);border:1px solid var(--color-divider);border-left:0;display:flex;flex-direction:column">
+            <div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--color-neutral-600);margin-bottom:var(--space-4)">The librarian's note</div>
+            <p style="font-size:15px;line-height:1.75;text-align:justify;hyphens:auto;color:var(--color-neutral-800)">{{ bookNote }}</p>
+            <sc-if value="{{ hasEdition }}" hint-placeholder-val="{{ true }}">
+              <div style="margin-top:var(--space-4);padding:var(--space-4);border:1px solid var(--color-divider);background:color-mix(in srgb, #b68235 6%, transparent)">
+                <div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:6px">Senior's edition note</div>
+                <div style="font-size:14px;line-height:1.6;color:var(--color-neutral-800)">{{ bookEdition }}</div>
+              </div>
+            </sc-if>
+            <div style="margin-top:auto;padding-top:var(--space-6);display:flex;gap:var(--space-2);flex-wrap:wrap">
+              <a class="btn btn-primary" href="{{ bookSearch }}" target="_blank" rel="noopener">Read it free</a>
+              <button class="btn btn-secondary" onClick="{{ nextBook }}">Next on the shelf</button>
+              <button class="btn btn-ghost" onClick="{{ closeBook }}">Shelve it</button>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+      <sc-if value="{{ isCard }}" hint-placeholder-val="{{ false }}">
+        <div class="card" style="width:520px;padding:var(--space-8);background:var(--color-bg);box-shadow:var(--shadow-lg);animation:lw-up .3s ease-out">
+          <div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:var(--space-4)">{{ bookCardKicker }}</div>
+          <div style="font-family:var(--font-heading);font-size:40px;line-height:1.05;letter-spacing:-.02em;margin-bottom:var(--space-2)">{{ bookTitle }}</div>
+          <div style="font-style:italic;font-size:16px;color:var(--color-neutral-700);margin-bottom:var(--space-4)">{{ bookAuthor }}</div>
+          <div class="hr"></div>
+          <p style="font-size:15px;line-height:1.75;text-align:justify;color:var(--color-neutral-800)">{{ bookNote }}</p>
+          <div style="display:flex;gap:var(--space-2);margin-top:var(--space-4);flex-wrap:wrap">
+            <a class="btn btn-primary" href="{{ bookSearch }}" target="_blank" rel="noopener">Read it free</a>
+            <button class="btn btn-secondary" onClick="{{ nextBook }}">Next</button>
+            <button class="btn btn-ghost" onClick="{{ closeBook }}">Close</button>
+          </div>
+        </div>
+      </sc-if>
+      <sc-if value="{{ isPlate }}" hint-placeholder-val="{{ false }}">
+        <div style="width:760px;background:var(--color-surface);padding:var(--space-6);box-shadow:var(--shadow-lg);animation:lw-up .3s ease-out">
+          <div style="background:var(--color-bg);padding:calc(var(--space-8) * 1.4) var(--space-8);text-align:center;border:1px solid var(--color-divider)">
+            <div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:var(--space-6)">{{ bookWing }}</div>
+            <div style="font-family:var(--font-heading);font-size:60px;font-weight:400;line-height:1.02;letter-spacing:-.025em;margin-bottom:var(--space-4)">{{ bookTitle }}</div>
+            <div style="font-style:italic;font-size:19px;color:var(--color-neutral-700);margin-bottom:var(--space-6)">{{ bookAuthor }}</div>
+            <div style="max-width:520px;margin:0 auto var(--space-6);font-size:14.5px;line-height:1.75;color:var(--color-neutral-800)">{{ bookNote }}</div>
+            <div style="display:flex;gap:var(--space-2);justify-content:center;flex-wrap:wrap">
+              <a class="btn btn-primary" href="{{ bookSearch }}" target="_blank" rel="noopener">Read it free</a>
+              <button class="btn btn-secondary" onClick="{{ nextBook }}">Next</button>
+              <button class="btn btn-ghost" onClick="{{ closeBook }}">Close</button>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;bookLayout&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;spread&quot;,&quot;card&quot;,&quot;plate&quot;],&quot;default&quot;:&quot;spread&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Book flip&quot;},&quot;travelSpeed&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;min&quot;:0.5,&quot;max&quot;:2,&quot;step&quot;:0.1,&quot;default&quot;:1,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Motion&quot;}}">
+const WINGS = [
+  { id: 'nursery', key: 'THE NURSERY (ages 2–7)', numeral: 'I', title: 'The Nursery', short: 'Nursery', ages: 'Ages 2–7',
+    copy: 'Begin in a lap. These are the books a child hears long before he can read them himself — Aesop and Andersen, Beatrix Potter, Mother Goose, the Blue Fairy Book. Read them aloud, slowly, and read them again; repetition is not a waste here, it is the whole method.',
+    composer: 'Mozart — Eine kleine Nachtmusik', music: 'https://www.youtube.com/results?search_query=Mozart+Eine+kleine+Nachtmusik' },
+  { id: 'school', key: 'SCHOOL DAYS (ages 7–12)', numeral: 'II', title: 'School Days', short: 'School Days', ages: 'Ages 7–12',
+    copy: 'The age of appetite. Cowboys and castaways, Little Women and King Arthur, Robin Hood and the Swiss Family Robinson — stories long enough to be lived in and good enough to be reread at forty. Let a child gorge here. Quantity is quality at this age.',
+    composer: 'Vivaldi — The Four Seasons', music: 'https://www.youtube.com/results?search_query=Vivaldi+The+Four+Seasons' },
+  { id: 'adolescence', key: 'ADOLESCENCE (ages 12–16)', numeral: 'III', title: 'Adolescence', short: 'Adolescence', ages: 'Ages 12–16',
+    copy: 'Now the heart wants weather. The Brontës, Dickens, Scott, Stevenson, Verne — books that let a young reader feel largely before anyone asks him to think precisely. Do not rush past this hall. Sentiment schooled here becomes judgment later.',
+    composer: 'Beethoven — Symphony No. 6', music: 'https://www.youtube.com/results?search_query=Beethoven+Symphony+No+6+Pastoral' },
+  { id: 'youth', key: 'YOUTH (ages 16–20)', numeral: 'IV', title: 'Youth', short: 'Youth', ages: 'Ages 16–20',
+    copy: 'The threshold. Austen and Dostoevsky, Newman and Chesterton, Hardy and Hawthorne — the last of the good books and the best possible preparation for the great ones. A reader who has walked the first three halls arrives here already at home.',
+    composer: 'J.S. Bach — Mass in B Minor', music: 'https://www.youtube.com/results?search_query=Bach+Mass+in+B+Minor' }
+];
+const SPINE_BG = [
+  'linear-gradient(90deg,#4a2c1c,#5e3a24)', 'linear-gradient(90deg,#2f3a2a,#3f4c37)',
+  'linear-gradient(90deg,#3c2430,#50303f)', 'linear-gradient(90deg,#1f2c38,#2b3c4c)',
+  'linear-gradient(90deg,#5a3a14,#70491b)', 'linear-gradient(90deg,#2a241f,#3a322a)',
+  'linear-gradient(90deg,#44201f,#5a2c29)', 'linear-gradient(90deg,#233029,#314239)'
+];
+const SPINE_FG = ['#e8d7b4', '#f0e3c6', '#d9c9a6', '#f5e9cf'];
+const H = 380, D = 520, CH = 640;
+function hash(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h; }
+function splitTitle(t) {
+  const i = t.indexOf(' (');
+  if (i > 0 && t.endsWith(')')) return [t.slice(0, i), t.slice(i + 2, -1)];
+  if (t.startsWith('(') && t.endsWith(')')) return ['', t.slice(1, -1)];
+  return [t, ''];
+}
+function surname(a) { return (a || '').split(',')[0].split(' (')[0].trim(); }
+
+class Component extends DCLogic {
+  state = { wings: [], all: [], open: -1, findOpen: false, query: '', fWing: 'all', fSort: 'shelf', subMsg: '', notifyMsg: '', sound: false, ready: false };
+
+  componentDidMount() {
+    fetch('books.json').then(r => r.json()).then(d => this.build(d)).catch(e => console.warn('books.json', e));
+    this._eased = {}; this._lastT = 0;
+    this._loop = (t) => { this.frame((t - (this._lastT || t)) / 1000); this._lastT = t; this._raf = requestAnimationFrame(this._loop); };
+    this._raf = requestAnimationFrame(this._loop);
+    this._onScroll = () => {};
+    this._onKey = (e) => {
+      if (e.key === 'Escape') { this.setState({ findOpen: false, open: -1 }); return; }
+      if ((e.key === 'k' || e.key === 'f') && (e.metaKey || e.ctrlKey)) { e.preventDefault(); this.setState({ findOpen: true }); return; }
+      if (this.state.findOpen) { if (e.key === 'Enter') { const r = this.results()[0]; if (r) this.goToBook(r.i, true); } return; }
+      if (e.key === 'ArrowRight' || e.key === 'PageDown') { e.preventDefault(); this.step(1); }
+      if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); this.step(-1); }
+    };
+    addEventListener('scroll', this._onScroll, { passive: true });
+    addEventListener('resize', this._onScroll);
+    addEventListener('keydown', this._onKey);
+    this._click = (e) => {
+      const b = e.target.closest && e.target.closest('[data-book]');
+      if (b) { const i = +b.getAttribute('data-book'); if (!isNaN(i)) this.setState({ open: i, findOpen: false }); }
+    };
+    addEventListener('click', this._click);
+    addEventListener('lw-open-book', this._ob = (e) => this.setState({ open: e.detail.i, findOpen: false }));
+    this.frame();
+  }
+  componentWillUnmount() {
+    if (this._raf) cancelAnimationFrame(this._raf);
+    removeEventListener('scroll', this._onScroll); removeEventListener('resize', this._onScroll);
+    removeEventListener('keydown', this._onKey); removeEventListener('click', this._click);
+    if (this._ctx) this._ctx.close();
+  }
+  componentDidUpdate() { this.frame(); }
+
+  build(data) {
+    const all = [];
+    const wings = WINGS.map((meta, wi) => {
+      const raw = data[meta.key] || [];
+      const first = all.length;
+      const filled = Math.max(4, Math.ceil(raw.length / 12));
+      const bays = Math.ceil(filled / 4);
+      const shelfCount = bays * 4;
+      const per = Math.ceil(raw.length / filled);
+      const shelves = [];
+      for (let s = 0; s < shelfCount; s++) {
+        const bay = Math.floor(s / 4), slot = s % 4;
+        const side = slot % 2 === 0 ? -1 : 1;
+        const row = slot < 2 ? -100 : 100;
+        const z = -(bay * D + D / 2);
+        const t = 'translate3d(' + (side * H) + 'px,' + row + 'px,' + z + 'px) rotateY(' + (side < 0 ? 90 : -90) + 'deg)';
+        const books = raw.slice(s * per, s * per + per).map((b, k) => {
+          const idx = all.length;
+          const [title, edition] = splitTitle(b.title);
+          const disp = title || b.author;
+          const hh = hash(disp + b.author);
+          const rec = {
+            i: idx, title: disp, edition, author: b.author, wing: wi, wingId: meta.id, wingShort: meta.short,
+            bay, bays, no: idx + 1,
+            short: disp.length > 52 ? disp.slice(0, 50) + '…' : disp,
+            full: disp + ' — ' + b.author,
+            wn: 17 + (hh % 15), h: (118 + (hh >> 4) % 44) + 'px',
+            tilt: hh % 19 === 0 ? 'rotate(-5deg)' : hh % 23 === 0 ? 'rotate(4deg)' : 'none',
+            torig: hh % 19 === 0 ? '100% 100%' : '0% 100%',
+            bg: SPINE_BG[hh % SPINE_BG.length], fg: SPINE_FG[(hh >> 3) % SPINE_FG.length]
+          };
+          all.push(rec);
+          return rec;
+        });
+        const sum = books.reduce((a, b) => a + b.wn, 0);
+        const scale = sum ? Math.min(2.4, 484 / sum) : 1;
+        for (const b of books) b.w = Math.round(b.wn * scale) + 'px';
+        const tag = books.length
+          ? (surname(books[0].author) === surname(books[books.length - 1].author)
+            ? surname(books[0].author)
+            : surname(books[0].author) + ' — ' + surname(books[books.length - 1].author))
+          : '·';
+        shelves.push({ t, books, tag, z });
+      }
+      const struct = [];
+      for (let bay = 0; bay < bays; bay++) {
+        const z = -(bay * D + D / 2);
+        const wallBg = 'repeating-linear-gradient(90deg, rgba(0,0,0,.28) 0 2px, transparent 2px 64px), repeating-linear-gradient(180deg, rgba(182,130,53,.09) 0 2px, transparent 2px 96px), linear-gradient(180deg,#241a15 0%,#150f0c 52%,#0d0908 100%)';
+        const floorBg = 'radial-gradient(42% 56% at 50% 42%, rgba(255,205,130,.16) 0%, transparent 72%), repeating-linear-gradient(90deg, rgba(0,0,0,.4) 0 2px, transparent 2px 56px), repeating-linear-gradient(90deg, #241a13 0 56px, #2b1f16 56px 112px), linear-gradient(180deg,#241a13 0%,#100b09 100%)';
+        const ceilBg = 'radial-gradient(30% 42% at 50% 50%, rgba(255,210,140,.28) 0%, transparent 70%), repeating-linear-gradient(180deg, rgba(0,0,0,.5) 0 10px, transparent 10px 128px), linear-gradient(180deg,#0d0a08 0%,#1c1512 100%)';
+        struct.push({ z, w: D + 'px', h: CH + 'px', ml: -D / 2 + 'px', mt: -CH / 2 + 'px', t: 'translate3d(' + (-H) + 'px,0,' + z + 'px) rotateY(90deg)', bg: wallBg, sh: 'inset 0 -40px 60px rgba(0,0,0,.55)' });
+        struct.push({ z, w: D + 'px', h: CH + 'px', ml: -D / 2 + 'px', mt: -CH / 2 + 'px', t: 'translate3d(' + H + 'px,0,' + z + 'px) rotateY(-90deg)', bg: wallBg, sh: 'inset 0 -40px 60px rgba(0,0,0,.55)' });
+        struct.push({ z, w: 2 * H + 'px', h: D + 'px', ml: -H + 'px', mt: -D / 2 + 'px', t: 'translate3d(0,' + CH / 2 + 'px,' + z + 'px) rotateX(90deg)', bg: floorBg, sh: 'inset 26px 0 40px rgba(0,0,0,.6), inset -26px 0 40px rgba(0,0,0,.6)' });
+        struct.push({ z, w: 2 * H + 'px', h: D + 'px', ml: -H + 'px', mt: -D / 2 + 'px', t: 'translate3d(0,' + (-CH / 2) + 'px,' + z + 'px) rotateX(90deg)', bg: ceilBg, sh: 'inset 26px 0 40px rgba(0,0,0,.6), inset -26px 0 40px rgba(0,0,0,.6)' });
+      }
+      return Object.assign({}, meta, {
+        bays, shelves, struct, count: raw.length, first,
+        countLabel: raw.length + ' books', browseLabel: 'Browse all ' + raw.length + ' titles',
+        label: meta.title + ' · ' + meta.ages,
+        scrollH: (90 + bays * 45) + 'vh',
+        endT: 'translate3d(0,0,' + (-(bays * D + 40)) + 'px)', endZ: -(bays * D + 40),
+        slotId: 'lw-end-' + meta.id,
+        slotHint: 'Drop a photograph — the ' + meta.title.toLowerCase() + ' alcove'
+      });
+    });
+    this.setState({ wings, all, ready: true });
+    window.__LW_DATA = { wings, all };
+    dispatchEvent(new CustomEvent('lw-books', { detail: window.__LW_DATA }));
+  }
+
+  sections() { return Array.from(document.querySelectorAll('[data-wing]')); }
+  frame(dt) {
+    const secs = this.sections();
+    if (!secs.length) return;
+    const vh = innerHeight;
+    const k = 1 - Math.exp(-(dt || 0.016) * 11); // inertial smoothing
+    let active = null, activeP = 0, inHall = false;
+    for (const sec of secs) {
+      const r = sec.getBoundingClientRect();
+      const total = r.height - vh;
+      const target = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 0;
+      const id = sec.getAttribute('data-wing');
+      let p = this._eased[id];
+      p = p === undefined ? target : p + (target - p) * k;
+      if (Math.abs(target - p) < 0.0004) p = target;
+      this._eased[id] = p;
+      if (r.top < vh && r.bottom > 0) { inHall = true; active = id; activeP = p; }
+      const plaque = sec.querySelector('[data-plaque]');
+      if (plaque) {
+        const o = p < 0.14 ? p / 0.14 : p > 0.82 ? Math.max(0, (1 - p) / 0.18) : 1;
+        plaque.style.opacity = o.toFixed(3);
+        plaque.style.transform = 'translateY(' + ((1 - o) * 26) + 'px)';
+        plaque.style.pointerEvents = o < 0.08 ? 'none' : 'auto';
+      }
+    }
+    if (window.__lw3d) window.__lw3d.update(active, activeP, inHall, this.props.travelSpeed ?? 1);
+    const host3d = document.querySelector('[data-three3d]');
+    if (host3d) { host3d.style.opacity = inHall ? '1' : '0'; host3d.style.pointerEvents = inHall ? 'auto' : 'none'; }
+    for (const el of document.querySelectorAll('[data-chrome]')) {
+      el.style.opacity = inHall ? '1' : '0';
+      el.style.pointerEvents = inHall ? 'auto' : 'none';
+    }
+    for (const b of document.querySelectorAll('[data-map]')) {
+      const id = b.getAttribute('data-map'), on = id === active;
+      b.style.borderColor = on ? 'rgba(182,130,53,.6)' : 'rgba(182,130,53,.16)';
+      b.style.color = on ? '#facb8d' : '#9b9797';
+      const fill = b.querySelector('[data-map-fill]');
+      if (fill) fill.style.width = on ? (activeP * 100).toFixed(1) + '%' : '0%';
+    }
+    for (const d of document.querySelectorAll('[data-dot]')) {
+      const on = d.getAttribute('data-dot') === active;
+      d.style.background = on ? 'var(--color-accent-400)' : 'transparent';
+      d.style.transform = on ? 'scale(1.5)' : 'scale(1)';
+    }
+  }
+  baysFor(sec) {
+    const id = sec.getAttribute('data-wing');
+    const w = this.state.wings.find(x => x.id === id);
+    return w ? w.bays : 3;
+  }
+
+  step(dir) {
+    const secs = this.sections();
+    const tops = secs.map(s => s.getBoundingClientRect().top + scrollY);
+    const y = scrollY + 4;
+    let i = tops.findIndex(t => t > y);
+    if (dir > 0) { if (i < 0) i = secs.length - 1; }
+    else { i = (i < 0 ? secs.length : i) - 2; if (i < 0) { scrollTo({ top: 0, behavior: 'smooth' }); return; } }
+    scrollTo({ top: tops[Math.max(0, Math.min(secs.length - 1, i))] + 10, behavior: 'smooth' });
+  }
+  goToWing(id, frac) {
+    const sec = document.querySelector('[data-wing="' + id + '"]');
+    if (!sec) return;
+    const r = sec.getBoundingClientRect();
+    scrollTo({ top: r.top + scrollY + (r.height - innerHeight) * (frac || 0.12), behavior: 'smooth' });
+  }
+  goToBook(i, open) {
+    const b = this.state.all[i]; if (!b) return;
+    this.goToWing(b.wingId, Math.min(0.9, (b.bay + 0.7) / b.bays));
+    this.setState({ findOpen: false, open: open ? i : -1 });
+  }
+  results() {
+    const q = this.state.query.trim().toLowerCase();
+    const wf = this.state.fWing === 'all' ? '' : this.state.fWing;
+    const fs = this.state.fSort || 'shelf';
+    let pool = this.state.all;
+    if (wf) pool = pool.filter(b => b.wingId === wf);
+    if (q) pool = pool.filter(b => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q));
+    if (fs === 'title') pool = pool.slice().sort((a, b) => a.title.localeCompare(b.title));
+    if (fs === 'author') pool = pool.slice().sort((a, b) => surname(a.author).localeCompare(surname(b.author)) || a.title.localeCompare(b.title));
+    return pool.slice(0, wf && !q ? 400 : 90);
+  }
+  toggleSound() {
+    const on = !this.state.sound;
+    this.setState({ sound: on });
+    if (on) {
+      const C = window.AudioContext || window.webkitAudioContext; if (!C) return;
+      const ctx = this._ctx || (this._ctx = new C());
+      ctx.resume();
+      const buf = ctx.createBuffer(1, ctx.sampleRate * 3, ctx.sampleRate);
+      const ch = buf.getChannelData(0);
+      let last = 0;
+      for (let i = 0; i < ch.length; i++) { const white = Math.random() * 2 - 1; last = (last + 0.02 * white) / 1.02; ch[i] = last * 3.2; }
+      const src = ctx.createBufferSource(); src.buffer = buf; src.loop = true;
+      const lp = ctx.createBiquadFilter(); lp.type = 'lowpass'; lp.frequency.value = 420;
+      const g = ctx.createGain(); g.gain.value = 0.0001;
+      src.connect(lp); lp.connect(g); g.connect(ctx.destination); src.start();
+      g.gain.exponentialRampToValueAtTime(0.05, ctx.currentTime + 1.6);
+      this._src = src; this._gain = g;
+    } else if (this._src) {
+      try { this._gain.gain.exponentialRampToValueAtTime(0.0001, this._ctx.currentTime + 0.6); this._src.stop(this._ctx.currentTime + 0.7); } catch (e) {}
+      this._src = null;
+    }
+  }
+
+  chip(x, on) {
+    return Object.assign({}, x, {
+      bc: on ? 'var(--color-accent)' : 'var(--color-divider)',
+      bgc: on ? 'color-mix(in srgb, var(--color-accent) 10%, transparent)' : 'transparent',
+      fg: on ? 'var(--color-accent-700)' : 'var(--color-neutral-600)'
+    });
+  }
+  noteLine() {
+    const st = this.state, n = this.results().length;
+    const w = st.fWing && st.fWing !== 'all' ? this.state.wings.find(x => x.id === st.fWing) : null;
+    if (st.query || w) return n + ' title' + (n === 1 ? '' : 's') + (w ? ' in ' + w.title : '') + (st.query ? ' matching \u201C' + st.query + '\u201D' : '');
+    return 'Type a title or author \u2014 or filter by hall';
+  }
+  renderVals() {
+    const st = this.state, layout = this.props.bookLayout ?? 'spread';
+    const b = st.all[st.open] || null;
+    const note = b ? this.note(b) : '';
+    return {
+      wings: st.wings,
+      mapItems: st.wings.map(w => ({ id: w.id, numeral: w.numeral, short: w.short }))
+        .concat([{ id: 'gb', numeral: 'V', short: 'Faith & Reason' }]),
+      findOpen: st.findOpen, query: st.query, results: this.results(),
+      resultNote: this.noteLine(),
+      filters: [{ id: 'all', label: 'All halls' }].concat(st.wings.map(w => ({ id: w.id, label: w.short }))).map(x => this.chip(x, (st.fWing || 'all') === x.id)),
+      sorts: [{ id: 'shelf', label: 'Shelf' }, { id: 'title', label: 'Title' }, { id: 'author', label: 'Author' }].map(x => this.chip(x, (st.fSort || 'shelf') === x.id)),
+      setFilter: (e) => this.setState({ fWing: e.currentTarget.getAttribute('data-f') }),
+      setSort: (e) => this.setState({ fSort: e.currentTarget.getAttribute('data-s') }),
+      soundLabel: st.sound ? '♪ Room tone on' : '♪ Room tone',
+      subMsg: st.subMsg, notifyMsg: st.notifyMsg,
+      bookOpen: !!b,
+      isSpread: !!b && layout === 'spread', isCard: !!b && layout === 'card', isPlate: !!b && layout === 'plate',
+      bookTitle: b ? b.title : '', bookAuthor: b ? b.author : '', bookWing: b ? b.wingShort : '',
+      bookNo: b ? b.no : '', bookEdition: b ? b.edition : '', hasEdition: !!(b && b.edition),
+      bookNoLabel: b ? 'No. ' + b.no + ' of 560' : '',
+      bookCardKicker: b ? b.wingShort + ' · No. ' + b.no : '',
+      bookNote: note,
+      bookSearch: b ? 'https://www.gutenberg.org/ebooks/search/?query=' + encodeURIComponent(b.title + ' ' + surname(b.author)) : '#',
+      toggleSound: () => this.toggleSound(),
+      toggleFind: () => this.setState({ findOpen: !st.findOpen, query: '', fWing: 'all', fSort: 'shelf' }),
+      closeFind: () => this.setState({ findOpen: false }),
+      onQuery: (e) => this.setState({ query: e.target.value }),
+      clearFilter: () => this.setState({ fWing: 'all' }),
+      filterLabel: st.fWing !== 'all' ? (st.wings.find(w => w.id === st.fWing) || {}).title : '',
+      hasFilter: st.fWing !== 'all',
+      pickResult: (e) => { const i = +e.currentTarget.getAttribute('data-book'); this.goToBook(i, true); },
+      jumpTo: (e) => { const id = e.currentTarget.getAttribute('data-map') || e.currentTarget.getAttribute('data-dot'); this.goToWing(id, 0.12); },
+      browseWing: (e) => { const id = e.currentTarget.getAttribute('data-wing-id'); this.setState({ findOpen: true, query: '', fWing: id }); },
+      closeBook: () => this.setState({ open: -1 }),
+      nextBook: () => this.setState({ open: Math.min(st.all.length - 1, st.open + 1) }),
+      stop: (e) => e.stopPropagation(),
+      subscribe: (e) => { e.preventDefault(); this.setState({ subMsg: 'Thank you — the first letter arrives Sunday.' }); },
+      notify: (e) => { e.preventDefault(); this.setState({ notifyMsg: 'You are on the list. The doors open in the autumn.' }); },
+      openPlan: () => this.setState({ findOpen: true, query: '', fWing: 'nursery' }),
+      askLibrarian: () => this.setState({ findOpen: true, query: 'Stevenson', fWing: 'all' })
+    };
+  }
+  note(b) {
+    const w = WINGS[b.wing];
+    const who = surname(b.author);
+    const lines = [
+      'Senior shelves this in ' + w.title + ', ' + w.ages.toLowerCase() + '. Read it aloud at the young end of the hall; let it be reread alone at the far end.',
+      'Find the best edition you can — ' + who + ' repays a good printing — and then let the book do its own arguing. Nothing here needs explaining to death.',
+      'A ' + w.title + ' title. Senior\u2019s rule holds: the whole book, unabridged, at the age it was meant for.'
+    ];
+    return lines[b.no % lines.length];
+  }
+}
+</script>
+</body>
+</html>

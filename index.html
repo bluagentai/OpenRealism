@@ -11,7 +11,10 @@
 <script>
 var mobile = matchMedia('(max-width: 760px)').matches ||
   (matchMedia('(pointer: coarse)').matches && matchMedia('(max-width: 1024px)').matches);
-var page = mobile ? '/Library%20Walk%20Mobile.dc.html' : '/Library%20Walk.dc.html';
+var hasGL = false;
+try { var t = document.createElement('canvas'); hasGL = !!(t.getContext('webgl2') || t.getContext('webgl')); } catch (e) {}
+var page = mobile ? '/Library%20Walk%20Mobile.dc.html'
+  : hasGL ? '/Library%20Walk%203D.dc.html' : '/Library%20Walk.dc.html';
 fetch(page)
   .then(function(r){ if(!r.ok) throw new Error(r.status); return r.text(); })
   .then(function(t){ document.open(); document.write(t); document.close(); })
