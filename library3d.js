@@ -166,7 +166,7 @@ function build(data) {
     floor.rotation.x = -Math.PI / 2; floor.position.set(0, 0, z - (len + VEST) / 2); g.add(floor);
     const barrel = new THREE.Mesh(new THREE.CylinderGeometry(HX + 0.7, HX + 0.7, len + VEST, 28, 1, true, Math.PI, Math.PI),
       new THREE.MeshStandardMaterial({ color: 0x1a120c, roughness: 0.95, side: THREE.BackSide }));
-    barrel.rotation.z = Math.PI / 2; barrel.rotation.y = Math.PI / 2;
+    barrel.rotation.z = -Math.PI / 2; barrel.rotation.y = Math.PI / 2;
     barrel.position.set(0, 3.6, z - (len + VEST) / 2); g.add(barrel);
     // cornice hall names
     if (!isGB) for (const sx of [-1, 1]) {
