@@ -1,0 +1,2256 @@
+{
+ "Age Group": [
+  {
+   "author": "Author",
+   "title": "Book Title"
+  }
+ ],
+ "THE NURSERY (ages 2–7)": [
+  {
+   "author": "Aesop",
+   "title": "Fables (The translation by Robert L'Estrange is the classic)"
+  },
+  {
+   "author": "Andersen, Hans Christian",
+   "title": "Christine's Picture Book"
+  },
+  {
+   "author": "Andersen, Hans Christian",
+   "title": "A Christmas Greeting: A Series of Stories"
+  },
+  {
+   "author": "Andersen, Hans Christian",
+   "title": "Fairy Tales"
+  },
+  {
+   "author": "Arabian Nights",
+   "title": "Two classic translations: one expurgated for children by Edward Lane, the other complete by Richard Burton"
+  },
+  {
+   "author": "Belloc, Hilaire",
+   "title": "The Bad Child's Book of Beasts"
+  },
+  {
+   "author": "Caldecott, Randolph",
+   "title": "Picture Books — 16 little vols. (published by Fredrick Warne)"
+  },
+  {
+   "author": "Carroll, Lewis (preferably illustrated by Tenniel)",
+   "title": "Alice in Wonderland"
+  },
+  {
+   "author": "Carroll, Lewis",
+   "title": "Through the Looking Glass"
+  },
+  {
+   "author": "Collodi, Carlo (Carlo Lorenzini)",
+   "title": "Pinocchio"
+  },
+  {
+   "author": "De La Mare, Walter",
+   "title": "Come Hither (the best anthology of poetry for \"children of all ages\")"
+  },
+  {
+   "author": "De La Mare, Walter",
+   "title": "Songs of Childhood"
+  },
+  {
+   "author": "Edgeworth, Maria",
+   "title": "Moral Tales"
+  },
+  {
+   "author": "Edgeworth, Maria",
+   "title": "The Parent's Assistant"
+  },
+  {
+   "author": "Ewing, Juliana",
+   "title": "Jackanapes"
+  },
+  {
+   "author": "Gesta Romanorum",
+   "title": "(translated by Swann [scholarly facsimiles])"
+  },
+  {
+   "author": "Grahame, Kenneth",
+   "title": "Wind in the Willows"
+  },
+  {
+   "author": "Greenaway, Kate (preferably published by Fredrick Warne)",
+   "title": "A Apple Pie"
+  },
+  {
+   "author": "Greenaway, Kate",
+   "title": "Birthday Book"
+  },
+  {
+   "author": "Greenaway, Kate",
+   "title": "Marigold Garden"
+  },
+  {
+   "author": "Greenaway, Kate",
+   "title": "Mother Goose"
+  },
+  {
+   "author": "Greenaway, Kate",
+   "title": "The Language of Flowers"
+  },
+  {
+   "author": "Greenaway, Kate",
+   "title": "Under the Window"
+  },
+  {
+   "author": "Grimm",
+   "title": "Household Stories (illustrated by Walter Crane [Dover Facsimiles])"
+  },
+  {
+   "author": "Harris, Joel Chandler",
+   "title": "Uncle Remus"
+  },
+  {
+   "author": "Kingsley, Charles",
+   "title": "Water Babies"
+  },
+  {
+   "author": "Kipling, Rudyard",
+   "title": "Jungle Book (illustrated by Kipling)"
+  },
+  {
+   "author": "Kipling, Rudyard",
+   "title": "Just So Stories"
+  },
+  {
+   "author": "Lamb, Charles",
+   "title": "Beauty and the Beast"
+  },
+  {
+   "author": "Lamb, Charles",
+   "title": "Tales from Shakespeare"
+  },
+  {
+   "author": "Lang, Andrew",
+   "title": "Blue Book of Fairies, and other color — 5 vols. (best illustrated by H.J. Ford [Dover has facsimile editions])"
+  },
+  {
+   "author": "Lear, Edward",
+   "title": "ABC (illustrated by Lear)"
+  },
+  {
+   "author": "Lear, Edward",
+   "title": "Nonsense Omnibus (illustrated by Lear [Warne])"
+  },
+  {
+   "author": "Lear, Edward",
+   "title": "The Pobble Who Has No Toe"
+  },
+  {
+   "author": "Lear, Edward",
+   "title": "The Quangle Wangle Hat"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Dr. Dolittle: A Treasury"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Dr. Dolittle and The Green Canary"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Dr. Dolittle's Circus"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Dr. Dolittle's Caravan"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Dr. Dolittle's Garden"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Dr. Dolittle's Zoo"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Story of Doctor Dolittle"
+  },
+  {
+   "author": "Lofting, Hugh",
+   "title": "Voyages of Doctor Dolittle"
+  },
+  {
+   "author": "Milne, A.A.",
+   "title": "Winnie the Pooh"
+  },
+  {
+   "author": "Milne, A.A.",
+   "title": "The House at Pooh Corner"
+  },
+  {
+   "author": "Milne, A.A.",
+   "title": "Now We Are Six"
+  },
+  {
+   "author": "Milne, A.A.",
+   "title": "Once On a Time"
+  },
+  {
+   "author": "Milne, A.A.",
+   "title": "Prince Rabbit"
+  },
+  {
+   "author": "Mother Goose",
+   "title": "(Dover Facsimiles; another ed. illustrated by Rackham, Viking Press)"
+  },
+  {
+   "author": "Perrault, Charles",
+   "title": "Fairy Tales (illustrated by Doré [Dover])"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Fairy Canavan"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Story of a Fierce Bad Rabbit"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tailor of Gloucester"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of Jemima Puddle-Duck"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of Peter Rabbit"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of Pigling Bland"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of Samuel Whiskers"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of Squirrel Nutkin"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of the Flopsy Bunnies"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of Tom Kitten"
+  },
+  {
+   "author": "Potter, Beatrix",
+   "title": "The Tale of Two Bad Mice"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "A Child's Garden of Verses (Scribner's)"
+  }
+ ],
+ "SCHOOL DAYS (ages 7–12)": [
+  {
+   "author": "Adams, Andy",
+   "title": "Cattle Brand"
+  },
+  {
+   "author": "Adams, Andy",
+   "title": "Log of a Cowboy (illustrated by N.C. Wyeth)"
+  },
+  {
+   "author": "Adams, Andy",
+   "title": "The Outlet"
+  },
+  {
+   "author": "Adams, Andy",
+   "title": "Why the Chisholm Trail Forks, and other tales of the cattle country"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Little Women"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Little Men"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Jo's Boys, and how they turned out (a sequel to Little Men)"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Aunt Jo's Scrap-Bag — 6 vols."
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "An Old Fashioned Girl"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Eight Cousins; or, The Aunt-Hill"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "A Free Bed"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Rose in Bloom (a sequel to Eight Cousins)"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Flower Fables"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Hospital Sketches, and Camp and Fireside Stories"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Jack and Jill: a Village Story"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Lulu's Library — 3 vol. collection of stories"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Moods"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Morning-glories, and Other Stories"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "On Picket Duty"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Silver Pitchers and Independence, a Centennial Love Story"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Spinning-Wheel Stories"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Three Proverb Stories (Kitty's Class Day; Aunt Kipp; Psyche's Art)"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Under the Lilacs"
+  },
+  {
+   "author": "Alcott, Louisa May",
+   "title": "Work: A Story of Experience"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "An Old Town by the Sea"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "The Ballad of Baby Bell, and other poems"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Cloth of Gold, and other poems"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "The Course of True Love Never Did Run Smooth"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Daisy's Necklace; and What Came Of It"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Flower and Thorn, later poems"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Friar Jerome's Beautiful Book"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "The Little Violinist"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Marjorie Daw"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "A Midnight Fantasy"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Miss Mehitable's Son"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Our New Neighbors at Ponkapog"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Poems of T.B. Aldrich"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "The Stillwater Tragedy"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Story of a Bad Boy"
+  },
+  {
+   "author": "Aldrich, Thomas Bailey",
+   "title": "Two Bites at a Cherry, with other tales"
+  },
+  {
+   "author": "Belloc, Hilaire",
+   "title": "Cautionary Tales for Children (designed for the admonition of children between the ages of 8 and 14)"
+  },
+  {
+   "author": "Browning, Robert",
+   "title": "The Pied Piper of Hamelin (illustrated by Kate Greenaway [Warne])"
+  },
+  {
+   "author": "Burnett, Frances Hodgson",
+   "title": "Little Lord Fauntleroy"
+  },
+  {
+   "author": "Burnett, Frances Hodgson",
+   "title": "The Secret Garden"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "Apache Devil"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "Back to the Stone Age"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "Chessman of Mars"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "John Carter of Mars"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "Jungle Tales of Tarzan"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "Tales of Three Planets"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "Tarzan"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "The Return of Tarzan"
+  },
+  {
+   "author": "Burroughs, Edgar Rice",
+   "title": "The Son of Tarzan"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Afloat and Ashore"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Bravo"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Chainbearer"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Crater"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Deerslayer"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Headsman"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Heidenmauer"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Home as Found"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Homeward Bound"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Jack Tier"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Last of the Mohicans"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Lionel Lincoln"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Mercedes of Castile"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Miles Wallingford"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Monikins"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Oak Openings"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Path Finder"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Pioneers"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Pilot"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Prairie"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Precaution"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Red Rover"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Redskins"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Satan's Toe"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Sea Lions"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Two Admirals"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Water-Witch"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Ways of the Hour"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Wing-and-Wing"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "The Ways of Wish-ton-wish"
+  },
+  {
+   "author": "Cooper, James Fenimore",
+   "title": "Wyandotte"
+  },
+  {
+   "author": "Cowper, William",
+   "title": "John Gilpin's Ride (illustrated by Caldecott [Warne])"
+  },
+  {
+   "author": "Dana, Richard Henry",
+   "title": "Two Years Before the Mast"
+  },
+  {
+   "author": "Defoe, Daniel",
+   "title": "Robinson Crusoe"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "A Christmas Carol"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "Cricket on the Hearth"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "David Copperfield (may be reserved for adolescence or reread)"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "Oliver Twist (may be reserved for adolescence or reread)"
+  },
+  {
+   "author": "Dodge, Mary Mapes",
+   "title": "Hans Brinker"
+  },
+  {
+   "author": "Garland, Hamlin",
+   "title": "The Light of the Star"
+  },
+  {
+   "author": "Garland, Hamlin",
+   "title": "The Long Trail"
+  },
+  {
+   "author": "Garland, Hamlin",
+   "title": "Main-Traveled Roads"
+  },
+  {
+   "author": "Garland, Hamlin",
+   "title": "Prairie Folks"
+  },
+  {
+   "author": "Garland, Hamlin",
+   "title": "Son of the Middle Border"
+  },
+  {
+   "author": "Garland, Hamlin",
+   "title": "The Spirit of Sweetwater"
+  },
+  {
+   "author": "Hawthorne, Nathaniel",
+   "title": "Tanglewood Tales"
+  },
+  {
+   "author": "Henry, G.A. (George Alfred)",
+   "title": "a hundred \"Boys' Books\""
+  },
+  {
+   "author": "Irving, Washington",
+   "title": "Sketch Book"
+  },
+  {
+   "author": "James, Will (illustrated by James [Scribner's])",
+   "title": "Book of Cowboys"
+  },
+  {
+   "author": "James, Will",
+   "title": "Lone Cowboy"
+  },
+  {
+   "author": "James, Will",
+   "title": "Smoky"
+  },
+  {
+   "author": "Kingsley, Charles",
+   "title": "Westward Ho!"
+  },
+  {
+   "author": "Kipling, Rudyard",
+   "title": "Captains Courageous"
+  },
+  {
+   "author": "Kipling, Rudyard",
+   "title": "Kim"
+  },
+  {
+   "author": "Kipling, Rudyard",
+   "title": "Stalky and Co. (illustrated by Miller)"
+  },
+  {
+   "author": "Longfellow, Henry Wadsworth",
+   "title": "Evangeline"
+  },
+  {
+   "author": "Longfellow, Henry Wadsworth",
+   "title": "Hiawatha"
+  },
+  {
+   "author": "MacDonald, George",
+   "title": "The Princess and Curdie"
+  },
+  {
+   "author": "MacDonald, George",
+   "title": "The Princess and the Goblin"
+  },
+  {
+   "author": "Marryat, Fredrick",
+   "title": "Masterman Ready"
+  },
+  {
+   "author": "Marryat, Fredrick",
+   "title": "Mr. Midshipman Easy"
+  },
+  {
+   "author": "Masefield, John",
+   "title": "Jim Davis"
+  },
+  {
+   "author": "Pyle, Howard",
+   "title": "Otto of the Silver Hand"
+  },
+  {
+   "author": "Pyle, Howard",
+   "title": "Robin Hood (illustrated by Pyle [Dover])"
+  },
+  {
+   "author": "Sewall, Anna",
+   "title": "Black Beauty"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Comedy of Errors"
+  },
+  {
+   "author": "Spyri, Johanna",
+   "title": "Cornelli"
+  },
+  {
+   "author": "Spyri, Johanna",
+   "title": "Heidi"
+  },
+  {
+   "author": "Stevenson, Robert Louis (preferably illustrated by Wyeth)",
+   "title": "Across the Plains"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "From Clyde to Sandy Hook"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "Kidnapped"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "The Silverado Squatters"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "Treasure Island"
+  },
+  {
+   "author": "Stowe, Harriet Beecher",
+   "title": "Uncle Tom's Cabin"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "At the Foot of the Rainbow"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "A Daughter of the Land"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "Freckles"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "A Girl of the Limberlost"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "The Harvester"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "Her Father's Daughter"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "The Magic Garden"
+  },
+  {
+   "author": "Stratton-Porter, Gene",
+   "title": "Michael O'Halloran"
+  },
+  {
+   "author": "Tarkington, Booth",
+   "title": "Penrod, and others in the series"
+  },
+  {
+   "author": "Twain, Mark",
+   "title": "Huckleberry Finn"
+  },
+  {
+   "author": "Twain, Mark",
+   "title": "The Prince and the Pauper"
+  },
+  {
+   "author": "Twain, Mark",
+   "title": "Tom Sawyer"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "20,000 Leagues Under the Sea"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "800 Leagues on the Amazon"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "Around the World in 80 Days"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "Caesar Cascabel"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "From the Earth to the Moon"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "Hector Servadac"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "Journey into the Interior of the Earth"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "The Lighthouse at the End of the World"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "Mysterious Island"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "On the Track"
+  },
+  {
+   "author": "Verne, Jules",
+   "title": "Voyages and Adventures of Captain Hatteras"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "Little House in the Big Woods"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "Little House on the Prairie"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "Farmer Boy"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "On the Banks of Plum Creek"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "By the Shores of Silver Lake"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "The Long Winter"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "Little Town on the Prairie"
+  },
+  {
+   "author": "Wilder, Laura Ingalls",
+   "title": "These Happy Golden Years"
+  },
+  {
+   "author": "Wister, Owen",
+   "title": "Indispensable Information for Infants"
+  },
+  {
+   "author": "Wyss, Johann",
+   "title": "Swiss Family Robinson"
+  },
+  {
+   "author": "Wyss, Johann",
+   "title": "Willis the Pilot"
+  }
+ ],
+ "ADOLESCENCE (ages 12–16)": [
+  {
+   "author": "Andersen, Hans Christian",
+   "title": "Pictures of Travel in Sweden, Among the Hartz Mountains, and in Switzerland"
+  },
+  {
+   "author": "Brontë, Charlotte",
+   "title": "Jane Eyre"
+  },
+  {
+   "author": "Brontë, Charlotte",
+   "title": "Wuthering Heights"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "After Dark"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Antonia"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Armadale"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Basil"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Black Robe"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Blind Love"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "\"Blow Up With The Brig!\""
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Dead Alive"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Dead Secret"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Evil Genius"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Fallen Leaves"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Fatal Cradle"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Fatal Fortune"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Frozen Deep"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Haunted Hotel"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Heart and Science"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Hide and Seek"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "\"I say no\""
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Jezebel's Daughter"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Law and the Lady"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Legacy of Cain"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Man and Wife"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Miss or Mrs.?"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Miss Bertha and the Yankee"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Miss Dulane and My Lord"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Miss Jeromette and the Clergyman"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Miss Bertha and the Groom"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Miss Morris and the Stranger"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Moonstone"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mr. Captain and the Nymph"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mr. Conway and the Landlady"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mr. Lepel and the Housekeeper"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mr. Lisimore and the Widow"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mr. Marmaduke and the Minister"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mr. Medhurst and the Princess"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mr. Percy and the Prophet"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Mrs. Zant and the Ghost"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "My Lady's Money"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "My Miscellanies"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The New Magdalen"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "No Name"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "Poor Miss Finch"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Queen of Hearts"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "A Rogue's Life from his Birth to his Marriage"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Two Destinies"
+  },
+  {
+   "author": "Collins, Wilkie",
+   "title": "The Woman in White"
+  },
+  {
+   "author": "Dampier, William",
+   "title": "A Voyage Round the World"
+  },
+  {
+   "author": "Daudet, Alphonse",
+   "title": "Fromont Jeune"
+  },
+  {
+   "author": "Daudet, Alphonse",
+   "title": "Tartarin"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "Barnaby Rudge"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "Nicholas Nickleby"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "The Old Curiosity Shop"
+  },
+  {
+   "author": "Doyle, Sir Arthur Conan",
+   "title": "The Lost World"
+  },
+  {
+   "author": "Doyle, Sir Arthur Conan",
+   "title": "Sherlock Holmes (series)"
+  },
+  {
+   "author": "Doyle, Sir Arthur Conan",
+   "title": "White Company"
+  },
+  {
+   "author": "Du Maurier, George",
+   "title": "Trilby"
+  },
+  {
+   "author": "Dumas, Alexandre",
+   "title": "The Black Tulip"
+  },
+  {
+   "author": "Dumas, Alexandre",
+   "title": "Three Musketeers"
+  },
+  {
+   "author": "Dumas, Alexandre",
+   "title": "Twenty Years After"
+  },
+  {
+   "author": "Dumas, Alexandre",
+   "title": "The Whites and The Blues"
+  },
+  {
+   "author": "Eggleston, Edward",
+   "title": "Brant and Red Jacket"
+  },
+  {
+   "author": "Eggleston, Edward",
+   "title": "The Circuit Rider"
+  },
+  {
+   "author": "Eggleston, Edward",
+   "title": "Duffels"
+  },
+  {
+   "author": "Eggleston, Edward",
+   "title": "The Graysons"
+  },
+  {
+   "author": "Eggleston, Edward",
+   "title": "The Hoosier School-Boy"
+  },
+  {
+   "author": "Eggleston, Edward",
+   "title": "The Hoosier Schoolmaster"
+  },
+  {
+   "author": "Eliot, George",
+   "title": "Adam Bede"
+  },
+  {
+   "author": "Eliot, George",
+   "title": "Middlemarch"
+  },
+  {
+   "author": "Eliot, George",
+   "title": "Mill on the Floss"
+  },
+  {
+   "author": "Eliot, George",
+   "title": "Romola"
+  },
+  {
+   "author": "Eliot, George",
+   "title": "Silas Marner"
+  },
+  {
+   "author": "Fabre, Henri",
+   "title": "selections from Souvenirs Entomologiques"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "The Call of the Canyon"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "Desert Gold"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "The Desert of Wheat"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "Fighting Caravans"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "The Last of the Plainsmen"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "The Last Trail"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "Nevada"
+  },
+  {
+   "author": "Gray, Zane",
+   "title": "Riders of the Purple Sage"
+  },
+  {
+   "author": "Haggard, H. Rider (Henry Rider)",
+   "title": "Allan and the Holy Flower"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Allan and the Ice-Gods"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Allan's Wife, and Other Tales"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Allan Quatermain"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Ayesha"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Child of the Storm"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Colonel Quartich, V.C."
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Dr. Therne"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Joan Haste"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "King Solomon's Mines"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Montezuma's Daughter"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "The People of the Mist"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "She"
+  },
+  {
+   "author": "Haggard, H. Rider",
+   "title": "Treasure of the Lake"
+  },
+  {
+   "author": "Hughes, Thomas",
+   "title": "Tom Brown's School Days"
+  },
+  {
+   "author": "Hughes, Thomas",
+   "title": "Tom Brown at Oxford"
+  },
+  {
+   "author": "Hugo, Victor",
+   "title": "Les Misérables"
+  },
+  {
+   "author": "Hugo, Victor",
+   "title": "Hunchback of Notre Dame"
+  },
+  {
+   "author": "Hugo, Victor",
+   "title": "Quatre-vingt-treize"
+  },
+  {
+   "author": "Ibanez, Blasco",
+   "title": "Blood and Sand"
+  },
+  {
+   "author": "Ibanez, Blasco",
+   "title": "Four Horseman of the Apocalypse"
+  },
+  {
+   "author": "Irving, Washington",
+   "title": "The Alhambra"
+  },
+  {
+   "author": "Irving, Washington",
+   "title": "Tales"
+  },
+  {
+   "author": "Kingsley, Charles",
+   "title": "Hereward the Wake"
+  },
+  {
+   "author": "Le Sage, Alain",
+   "title": "Gil Blas"
+  },
+  {
+   "author": "MacDonald, George",
+   "title": "Lilith"
+  },
+  {
+   "author": "Park, Mungo",
+   "title": "Travels in Africa"
+  },
+  {
+   "author": "Parkman, Francis",
+   "title": "Oregon Trail"
+  },
+  {
+   "author": "Poe, Edgar Allen",
+   "title": "Tales and poems"
+  },
+  {
+   "author": "Polo, Marco",
+   "title": "Travels"
+  },
+  {
+   "author": "Reade, Charles",
+   "title": "The Cloister and the Hearth"
+  },
+  {
+   "author": "Rhodes, Eugene",
+   "title": "Best Novels, and Stories (edited by Dobie)"
+  },
+  {
+   "author": "Scott, Sir Walter",
+   "title": "Ivanhoe"
+  },
+  {
+   "author": "Scott, Sir Walter",
+   "title": "Kenilworth"
+  },
+  {
+   "author": "Scott, Sir Walter",
+   "title": "Rob Roy"
+  },
+  {
+   "author": "Scott, Sir Walter",
+   "title": "The Talisman"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Merchant of Venice"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Midsummer Night's Dream"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Romeo and Juliet"
+  },
+  {
+   "author": "Shelley, Mary",
+   "title": "Frankenstein"
+  },
+  {
+   "author": "Sienkiewicz, Henryk",
+   "title": "With Fire and Sword"
+  },
+  {
+   "author": "Sienkiewicz, Henryk",
+   "title": "Quo Vadis"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "The Master of Ballantrae"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "Prince Otto"
+  },
+  {
+   "author": "Stevenson, Robert Louis",
+   "title": "The Strange Case of Dr. Jekyll and Mr. Hyde"
+  },
+  {
+   "author": "Swift, Jonathan",
+   "title": "Gulliver's Travels"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "Sanders of the River"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "Again Sanders"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "Bones (Further Adventures in Mr. Commissioner Sanders' Country)"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "Bosambo of the River"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "Diana of Kara-Kara"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "The Double"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "Four Just Men"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "The Girl from Scotland Yard"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "The Man Who Knew"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "The People of the River"
+  },
+  {
+   "author": "Wallace, Edgar",
+   "title": "The Sinister Man"
+  },
+  {
+   "author": "Wells, H.G.",
+   "title": "The First Men in the Moon"
+  },
+  {
+   "author": "Wells, H.G.",
+   "title": "The Food of the Gods"
+  },
+  {
+   "author": "Wells, H.G.",
+   "title": "In the Days of the Comet"
+  },
+  {
+   "author": "Wells, H.G.",
+   "title": "The Invisible Man"
+  },
+  {
+   "author": "Wells, H.G.",
+   "title": "The Island of Dr. Moreau"
+  },
+  {
+   "author": "Wells, H.G.",
+   "title": "The Time Machine"
+  },
+  {
+   "author": "Wells, H.G.",
+   "title": "The War of the Worlds"
+  },
+  {
+   "author": "Wister, Owen",
+   "title": "The Dragon of Wantley"
+  },
+  {
+   "author": "Wister, Owen",
+   "title": "The Jimmyjohn Boss and Other Stories"
+  },
+  {
+   "author": "Wister, Owen",
+   "title": "Lady Baltimore"
+  },
+  {
+   "author": "Wister, Owen",
+   "title": "Lin McLean"
+  },
+  {
+   "author": "Wister, Owen",
+   "title": "Members of the Family"
+  },
+  {
+   "author": "Wister, Owen",
+   "title": "The Virginian"
+  }
+ ],
+ "YOUTH (ages 16–20)": [
+  {
+   "author": "Andersen, Hans Christian",
+   "title": "The Fairy Tale of My Life: An Autobiography"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "Emma"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "Lady Susan"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "Mansfield Park"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "Northanger Abbey"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "Pride and Prejudice"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "Persuasion"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "Sense and Sensibility"
+  },
+  {
+   "author": "Austen, Jane",
+   "title": "The Watsons"
+  },
+  {
+   "author": "Balzac, Honoré de",
+   "title": "The Cabinet of Antiquities"
+  },
+  {
+   "author": "Balzac, Honoré de",
+   "title": "Père Goriot"
+  },
+  {
+   "author": "Balzac, Honoré de",
+   "title": "Ursule Mirouet, and Other Stories"
+  },
+  {
+   "author": "Bellamy, Edward",
+   "title": "The Blindman's World and Other Stories"
+  },
+  {
+   "author": "Bellamy, Edward",
+   "title": "The Duke of Stockbridge"
+  },
+  {
+   "author": "Bellamy, Edward",
+   "title": "Looking Backward"
+  },
+  {
+   "author": "Bellamy, Edward",
+   "title": "Equality (A Sequel to Looking Backward)"
+  },
+  {
+   "author": "Belloc, Hilaire",
+   "title": "The Cruise of the \"Nona\" — and many others"
+  },
+  {
+   "author": "Bernanos, Georges",
+   "title": "Diary of a Country Priest"
+  },
+  {
+   "author": "Bernanos, Georges",
+   "title": "A Diary of my Times"
+  },
+  {
+   "author": "Bernanos, Georges",
+   "title": "The Fearless Heart"
+  },
+  {
+   "author": "Bernanos, Georges",
+   "title": "Joy"
+  },
+  {
+   "author": "Bernanos, Georges",
+   "title": "Last Essays"
+  },
+  {
+   "author": "Blackmore, Richard Dodridge",
+   "title": "Cripps the Carrier"
+  },
+  {
+   "author": "Blackmore, Richard Dodridge",
+   "title": "Lorna Doone"
+  },
+  {
+   "author": "Blackmore, Richard Dodridge",
+   "title": "A Tale of the South Downs"
+  },
+  {
+   "author": "Borrow, George",
+   "title": "The Bible in Spain"
+  },
+  {
+   "author": "Borrow, George",
+   "title": "Lavengro"
+  },
+  {
+   "author": "Borrow, George",
+   "title": "Romany Rye (A sequel to Lavengro)"
+  },
+  {
+   "author": "Brontë, Charlotte",
+   "title": "Jane Eyre"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "A Book of Escapes and Hurried Journeys (A Collection of Stories)"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "Castle Gay"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "The Courts of the Morning"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "The Free Fishers"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "The Gap in the Curtain"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "Greenmantle"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "The House of the Four Winds"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "Huntingtower"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "Jim MacNab"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "A Lodge in the Wilderness"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "Midwinter"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "Mr. Standfast"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "The Three Hostages"
+  },
+  {
+   "author": "Buchanan, John",
+   "title": "The Thirty-Nine Steps"
+  },
+  {
+   "author": "Butler, Samuel",
+   "title": "Erewhon"
+  },
+  {
+   "author": "Butler, Samuel",
+   "title": "The Way of All Flesh"
+  },
+  {
+   "author": "Cabell, James Branch",
+   "title": "Chivalry"
+  },
+  {
+   "author": "Cabell, James Branch",
+   "title": "Gallantry"
+  },
+  {
+   "author": "Cabell, James Branch",
+   "title": "Jurgen"
+  },
+  {
+   "author": "Cabell, James Branch",
+   "title": "The Silver Stallion"
+  },
+  {
+   "author": "Cable, George Washington",
+   "title": "The Cavalier"
+  },
+  {
+   "author": "Cable, George Washington",
+   "title": "Old Creole Days"
+  },
+  {
+   "author": "Cable, George Washington",
+   "title": "Kincaid's Battery"
+  },
+  {
+   "author": "Cather, Willa",
+   "title": "Death Comes for the Archbishop"
+  },
+  {
+   "author": "Cather, Willa",
+   "title": "My Antonia"
+  },
+  {
+   "author": "Cather, Willa",
+   "title": "Shadows on the Rock"
+  },
+  {
+   "author": "Chekhov, Anton",
+   "title": "Stories and Plays"
+  },
+  {
+   "author": "Chesterton, G.K.",
+   "title": "Everlasting Man"
+  },
+  {
+   "author": "Chesterton, G.K.",
+   "title": "Father Brown series"
+  },
+  {
+   "author": "Chesterton, G.K.",
+   "title": "A Man Called Thursday"
+  },
+  {
+   "author": "Columbus, Christopher",
+   "title": "Four Voyages to the New World"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "Almayer's Folly"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "An Outcast of the Islands"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "The Arrow of Gold"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "Lord Jim"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "The Nigger of the \"Narcissus\""
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "Nostromo"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "The Rescue"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "A Set of Six"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "Twixt Land and Sea"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "Typhoon"
+  },
+  {
+   "author": "Conrad, Joseph",
+   "title": "Victory"
+  },
+  {
+   "author": "Cook, James",
+   "title": "Captain Cook's Explorations"
+  },
+  {
+   "author": "DeMaupassant, Guy",
+   "title": "Stories"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "Bleak House"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "Martin Chuzzlewit"
+  },
+  {
+   "author": "Dickens, Charles",
+   "title": "Our Mutual Friend"
+  },
+  {
+   "author": "Dostoyevsky, Feodor",
+   "title": "Brothers Karamazov"
+  },
+  {
+   "author": "Dostoyevsky, Feodor",
+   "title": "Crime and Punishment"
+  },
+  {
+   "author": "Doughty, Charles",
+   "title": "Travels in Arabian Deserts"
+  },
+  {
+   "author": "Fielding, Henry",
+   "title": "Jonathan Wilde"
+  },
+  {
+   "author": "Fielding, Henry",
+   "title": "Tom Jones"
+  },
+  {
+   "author": "Hakluyt, Richard",
+   "title": "Voyages to the New World"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "Captain Dieppe"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "A Change of Air"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "Double Harness"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "Half a Hero"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "The King's Mirror"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "A Man of Mark"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "The Prisoner of Zenda"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "Rupert of Hentzau"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "Simon Dale"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "The Secret of the Tower"
+  },
+  {
+   "author": "Hawkins, Anthony Hope",
+   "title": "Tristram of Blent"
+  },
+  {
+   "author": "Hawthorne, Nathaniel",
+   "title": "The House of Seven Gables"
+  },
+  {
+   "author": "Hawthorne, Nathaniel",
+   "title": "The Scarlet Letter"
+  },
+  {
+   "author": "Hudson, W.H.",
+   "title": "Green Mansions"
+  },
+  {
+   "author": "Hudson, W.H.",
+   "title": "The Purple Land"
+  },
+  {
+   "author": "Irving, Washington",
+   "title": "Conquest of Granada"
+  },
+  {
+   "author": "Irving, Washington",
+   "title": "Life of Columbus"
+  },
+  {
+   "author": "Irving, Washington",
+   "title": "Life of George Washington"
+  },
+  {
+   "author": "Jackson, Helen Hunt",
+   "title": "Ramona"
+  },
+  {
+   "author": "Lagerlöf, Selma",
+   "title": "Gosta Berling"
+  },
+  {
+   "author": "Lagerlöf, Selma",
+   "title": "Jerusalem"
+  },
+  {
+   "author": "Loti, Pierre (Louis Marie Julien Viaud)",
+   "title": "An Iceland Fisherman"
+  },
+  {
+   "author": "Loti, Pierre",
+   "title": "India (Without the English)"
+  },
+  {
+   "author": "Loti, Pierre",
+   "title": "On Life's By-Ways"
+  },
+  {
+   "author": "Manzoni, Alessandro",
+   "title": "The Betrothed"
+  },
+  {
+   "author": "Melville, Herman",
+   "title": "Billy Budd"
+  },
+  {
+   "author": "Melville, Herman",
+   "title": "Moby Dick"
+  },
+  {
+   "author": "Moore, Tom",
+   "title": "Lalla Rookh"
+  },
+  {
+   "author": "Morris, William",
+   "title": "News from Nowhere"
+  },
+  {
+   "author": "Morris, William",
+   "title": "The Roots of the Mountains"
+  },
+  {
+   "author": "Morris, William",
+   "title": "Sigurd the Volsung and the Fall of the Niblungs"
+  },
+  {
+   "author": "Scott, Robert",
+   "title": "Scott's Last Expedition"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "As You Like It"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Hamlet"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Henry IV"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Henry V"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Macbeth"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "The Sonnets"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "The Taming of the Shrew"
+  },
+  {
+   "author": "Shakespeare, William",
+   "title": "Twelfth Night"
+  },
+  {
+   "author": "Stanley, Sir Henry Morton",
+   "title": "How I Found Livingstone"
+  },
+  {
+   "author": "Stendhal",
+   "title": "The Abbess of Castro and Other Tales"
+  },
+  {
+   "author": "Stendhal",
+   "title": "Armance"
+  },
+  {
+   "author": "Stendhal",
+   "title": "The Charterhouse of Parma"
+  },
+  {
+   "author": "Stendhal",
+   "title": "Lamiel"
+  },
+  {
+   "author": "Stendhal",
+   "title": "Lucien Leuwen"
+  },
+  {
+   "author": "Stendhal",
+   "title": "Italian Chronicles"
+  },
+  {
+   "author": "Stendhal",
+   "title": "Memories of a Tourist"
+  },
+  {
+   "author": "Stendhal",
+   "title": "The Red and the Black"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Adventures of Philip"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Catherine"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Denis Duval"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Eastern Sketches"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Henry Esmond"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "The Four Georges"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "The History of Pendennis"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "The Irish Sketchbook"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "The Newcomes"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "The Paris Sketchbook"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Roundabout Papers"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "The Second Funeral of Napoleon"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Sketches and Travels in London"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "Vanity Fair"
+  },
+  {
+   "author": "Thackeray, William Makepeace",
+   "title": "The Virginians"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "Anna Karenina"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "Childhood, Boyhood, Youth"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "The Cossacks"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "The Death of Ivan Ilyitch and Other Stories"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "Fables for Children"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "The Kreutzer Sonata"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "Master and Man"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "My Confession"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "My Religion"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "Resurrection"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "Tales of Sevastopol"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "War and Peace"
+  },
+  {
+   "author": "Tolstoy, Leo",
+   "title": "What Is to Be Done?"
+  },
+  {
+   "author": "Trollope, Anthony",
+   "title": "Barchester (series)"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "The Brigadier and Other Stories"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "Dream Tales and Prose Poems"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "Fathers and Sons"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "A Hunter's Sketches"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "Knock, Knock, Knock and Other Stories"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "A Month in the Country"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "A Nest of Gentlefolk"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "Rudin"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "Smoke"
+  },
+  {
+   "author": "Turgenev, Ivan",
+   "title": "Spring Torrents"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "The Burning Bush"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "Catherine of Siena"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "The Faithful Wife"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "Gunnar's Daughter"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "Ida Elisabeth"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "Jenny"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "Kristin Lavransdatter"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "The Master of Hestviken"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "Saga of Saints"
+  },
+  {
+   "author": "Undset, Sigrid",
+   "title": "The Wild Orchid"
+  },
+  {
+   "author": "Verga, Giovanni",
+   "title": "Cavalleria Rusticana and Other Stories"
+  },
+  {
+   "author": "Verga, Giovanni",
+   "title": "The House by the Medlar Tree (translated by D.H. Lawrence)"
+  },
+  {
+   "author": "Verga, Giovanni",
+   "title": "Little Novels of Sicily"
+  },
+  {
+   "author": "Washington, Booker T.",
+   "title": "Up From Slavery"
+  }
+ ]
+}

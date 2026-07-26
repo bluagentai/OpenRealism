@@ -1,0 +1,31 @@
+{
+  "name": "great-books-agentic-app",
+  "version": "1.0.0",
+  "description": "Agentic webapp for Great Books Program and John Seniors' 1100 Good Books Program",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "great-books",
+    "classical-education",
+    "catholic-education",
+    "agentic-app",
+    "1000-good-books"
+  ],
+  "author": "Hermes Agent",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "sass": "^1.69.0",
+    "@vitejs/plugin-vue": "^4.5.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.0",
+    "vue3-carousel": "^0.2.2"
+  }
+}

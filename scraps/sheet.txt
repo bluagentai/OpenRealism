@@ -1,0 +1,565 @@
+1: A=The Thousand Good Books
+2: A=From: The Death of Christian Culture by John Senior (IHS Press)
+4: A=Author | B=Book Title | C=Age Group | D=Index Group
+5: A=THE NURSERY (ages 2–7)
+6: A=Aesop | B=Fables (The translation by Robert L'Estrange is the classic) | C=THE NURSERY (ages 2–7) | D=1.0
+7: A=Andersen, Hans Christian | B=Christine's Picture Book | C=THE NURSERY (ages 2–7) | D=1.0
+8: A=Andersen, Hans Christian | B=A Christmas Greeting: A Series of Stories | C=THE NURSERY (ages 2–7) | D=1.0
+9: A=Andersen, Hans Christian | B=Fairy Tales | C=THE NURSERY (ages 2–7) | D=1.0
+10: A=Arabian Nights | B=Two classic translations: one expurgated for children by Edward Lane, the other complete by Richard Burton | C=THE NURSERY (ages 2–7) | D=1.0
+11: A=Belloc, Hilaire | B=The Bad Child's Book of Beasts | C=THE NURSERY (ages 2–7) | D=1.0
+12: A=Caldecott, Randolph | B=Picture Books — 16 little vols. (published by Fredrick Warne) | C=THE NURSERY (ages 2–7) | D=1.0
+13: A=Carroll, Lewis (preferably illustrated by Tenniel) | B=Alice in Wonderland | C=THE NURSERY (ages 2–7) | D=1.0
+14: A=Carroll, Lewis | B=Through the Looking Glass | C=THE NURSERY (ages 2–7) | D=1.0
+15: A=Collodi, Carlo (Carlo Lorenzini) | B=Pinocchio | C=THE NURSERY (ages 2–7) | D=1.0
+16: A=De La Mare, Walter | B=Come Hither (the best anthology of poetry for "children of all ages") | C=THE NURSERY (ages 2–7) | D=1.0
+17: A=De La Mare, Walter | B=Songs of Childhood | C=THE NURSERY (ages 2–7) | D=1.0
+18: A=Edgeworth, Maria | B=Moral Tales | C=THE NURSERY (ages 2–7) | D=1.0
+19: A=Edgeworth, Maria | B=The Parent's Assistant | C=THE NURSERY (ages 2–7) | D=1.0
+20: A=Ewing, Juliana | B=Jackanapes | C=THE NURSERY (ages 2–7) | D=1.0
+21: A=Gesta Romanorum | B=(translated by Swann [scholarly facsimiles]) | C=THE NURSERY (ages 2–7) | D=1.0
+22: A=Grahame, Kenneth | B=Wind in the Willows | C=THE NURSERY (ages 2–7) | D=1.0
+23: A=Greenaway, Kate (preferably published by Fredrick Warne) | B=A Apple Pie | C=THE NURSERY (ages 2–7) | D=1.0
+24: A=Greenaway, Kate | B=Birthday Book | C=THE NURSERY (ages 2–7) | D=1.0
+25: A=Greenaway, Kate | B=Marigold Garden | C=THE NURSERY (ages 2–7) | D=1.0
+26: A=Greenaway, Kate | B=Mother Goose | C=THE NURSERY (ages 2–7) | D=1.0
+27: A=Greenaway, Kate | B=The Language of Flowers | C=THE NURSERY (ages 2–7) | D=1.0
+28: A=Greenaway, Kate | B=Under the Window | C=THE NURSERY (ages 2–7) | D=1.0
+29: A=Grimm | B=Household Stories (illustrated by Walter Crane [Dover Facsimiles]) | C=THE NURSERY (ages 2–7) | D=1.0
+30: A=Harris, Joel Chandler | B=Uncle Remus | C=THE NURSERY (ages 2–7) | D=1.0
+31: A=Kingsley, Charles | B=Water Babies | C=THE NURSERY (ages 2–7) | D=1.0
+32: A=Kipling, Rudyard | B=Jungle Book (illustrated by Kipling) | C=THE NURSERY (ages 2–7) | D=1.0
+33: A=Kipling, Rudyard | B=Just So Stories | C=THE NURSERY (ages 2–7) | D=1.0
+34: A=Lamb, Charles | B=Beauty and the Beast | C=THE NURSERY (ages 2–7) | D=1.0
+35: A=Lamb, Charles | B=Tales from Shakespeare | C=THE NURSERY (ages 2–7) | D=1.0
+36: A=Lang, Andrew | B=Blue Book of Fairies, and other color — 5 vols. (best illustrated by H.J. Ford [Dover has facsimile editions]) | C=THE NURSERY (ages 2–7) | D=1.0
+37: A=Lear, Edward | B=ABC (illustrated by Lear) | C=THE NURSERY (ages 2–7) | D=1.0
+38: A=Lear, Edward | B=Nonsense Omnibus (illustrated by Lear [Warne]) | C=THE NURSERY (ages 2–7) | D=1.0
+39: A=Lear, Edward | B=The Pobble Who Has No Toe | C=THE NURSERY (ages 2–7) | D=1.0
+40: A=Lear, Edward | B=The Quangle Wangle Hat | C=THE NURSERY (ages 2–7) | D=1.0
+41: A=Lofting, Hugh | B=Dr. Dolittle: A Treasury | C=THE NURSERY (ages 2–7) | D=1.0
+42: A=Lofting, Hugh | B=Dr. Dolittle and The Green Canary | C=THE NURSERY (ages 2–7) | D=1.0
+43: A=Lofting, Hugh | B=Dr. Dolittle's Circus | C=THE NURSERY (ages 2–7) | D=1.0
+44: A=Lofting, Hugh | B=Dr. Dolittle's Caravan | C=THE NURSERY (ages 2–7) | D=1.0
+45: A=Lofting, Hugh | B=Dr. Dolittle's Garden | C=THE NURSERY (ages 2–7) | D=1.0
+46: A=Lofting, Hugh | B=Dr. Dolittle's Zoo | C=THE NURSERY (ages 2–7) | D=1.0
+47: A=Lofting, Hugh | B=Story of Doctor Dolittle | C=THE NURSERY (ages 2–7) | D=1.0
+48: A=Lofting, Hugh | B=Voyages of Doctor Dolittle | C=THE NURSERY (ages 2–7) | D=1.0
+49: A=Milne, A.A. | B=Winnie the Pooh | C=THE NURSERY (ages 2–7) | D=1.0
+50: A=Milne, A.A. | B=The House at Pooh Corner | C=THE NURSERY (ages 2–7) | D=1.0
+51: A=Milne, A.A. | B=Now We Are Six | C=THE NURSERY (ages 2–7) | D=1.0
+52: A=Milne, A.A. | B=Once On a Time | C=THE NURSERY (ages 2–7) | D=1.0
+53: A=Milne, A.A. | B=Prince Rabbit | C=THE NURSERY (ages 2–7) | D=1.0
+54: A=Mother Goose | B=(Dover Facsimiles; another ed. illustrated by Rackham, Viking Press) | C=THE NURSERY (ages 2–7) | D=1.0
+55: A=Perrault, Charles | B=Fairy Tales (illustrated by Doré [Dover]) | C=THE NURSERY (ages 2–7) | D=1.0
+56: A=Potter, Beatrix | B=The Fairy Canavan | C=THE NURSERY (ages 2–7) | D=1.0
+57: A=Potter, Beatrix | B=The Story of a Fierce Bad Rabbit | C=THE NURSERY (ages 2–7) | D=1.0
+58: A=Potter, Beatrix | B=The Tailor of Gloucester | C=THE NURSERY (ages 2–7) | D=1.0
+59: A=Potter, Beatrix | B=The Tale of Jemima Puddle-Duck | C=THE NURSERY (ages 2–7) | D=1.0
+60: A=Potter, Beatrix | B=The Tale of Peter Rabbit | C=THE NURSERY (ages 2–7) | D=1.0
+61: A=Potter, Beatrix | B=The Tale of Pigling Bland | C=THE NURSERY (ages 2–7) | D=1.0
+62: A=Potter, Beatrix | B=The Tale of Samuel Whiskers | C=THE NURSERY (ages 2–7) | D=1.0
+63: A=Potter, Beatrix | B=The Tale of Squirrel Nutkin | C=THE NURSERY (ages 2–7) | D=1.0
+64: A=Potter, Beatrix | B=The Tale of the Flopsy Bunnies | C=THE NURSERY (ages 2–7) | D=1.0
+65: A=Potter, Beatrix | B=The Tale of Tom Kitten | C=THE NURSERY (ages 2–7) | D=1.0
+66: A=Potter, Beatrix | B=The Tale of Two Bad Mice | C=THE NURSERY (ages 2–7) | D=1.0
+67: A=Stevenson, Robert Louis | B=A Child's Garden of Verses (Scribner's) | C=THE NURSERY (ages 2–7) | D=1.0
+68: A=Adams, Andy | B=Cattle Brand | C=SCHOOL DAYS (ages 7–12) | D=2.0
+69: A=Adams, Andy | B=Log of a Cowboy (illustrated by N.C. Wyeth) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+70: A=Adams, Andy | B=The Outlet | C=SCHOOL DAYS (ages 7–12) | D=2.0
+71: A=Adams, Andy | B=Why the Chisholm Trail Forks, and other tales of the cattle country | C=SCHOOL DAYS (ages 7–12) | D=2.0
+72: A=Alcott, Louisa May | B=Little Women | C=SCHOOL DAYS (ages 7–12) | D=2.0
+73: A=Alcott, Louisa May | B=Little Men | C=SCHOOL DAYS (ages 7–12) | D=2.0
+74: A=Alcott, Louisa May | B=Jo's Boys, and how they turned out (a sequel to Little Men) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+75: A=Alcott, Louisa May | B=Aunt Jo's Scrap-Bag — 6 vols. | C=SCHOOL DAYS (ages 7–12) | D=2.0
+76: A=Alcott, Louisa May | B=An Old Fashioned Girl | C=SCHOOL DAYS (ages 7–12) | D=2.0
+77: A=Alcott, Louisa May | B=Eight Cousins; or, The Aunt-Hill | C=SCHOOL DAYS (ages 7–12) | D=2.0
+78: A=Alcott, Louisa May | B=A Free Bed | C=SCHOOL DAYS (ages 7–12) | D=2.0
+79: A=Alcott, Louisa May | B=Rose in Bloom (a sequel to Eight Cousins) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+80: A=Alcott, Louisa May | B=Flower Fables | C=SCHOOL DAYS (ages 7–12) | D=2.0
+81: A=Alcott, Louisa May | B=Hospital Sketches, and Camp and Fireside Stories | C=SCHOOL DAYS (ages 7–12) | D=2.0
+82: A=Alcott, Louisa May | B=Jack and Jill: a Village Story | C=SCHOOL DAYS (ages 7–12) | D=2.0
+83: A=Alcott, Louisa May | B=Lulu's Library — 3 vol. collection of stories | C=SCHOOL DAYS (ages 7–12) | D=2.0
+84: A=Alcott, Louisa May | B=Moods | C=SCHOOL DAYS (ages 7–12) | D=2.0
+85: A=Alcott, Louisa May | B=Morning-glories, and Other Stories | C=SCHOOL DAYS (ages 7–12) | D=2.0
+86: A=Alcott, Louisa May | B=On Picket Duty | C=SCHOOL DAYS (ages 7–12) | D=2.0
+87: A=Alcott, Louisa May | B=Silver Pitchers and Independence, a Centennial Love Story | C=SCHOOL DAYS (ages 7–12) | D=2.0
+88: A=Alcott, Louisa May | B=Spinning-Wheel Stories | C=SCHOOL DAYS (ages 7–12) | D=2.0
+89: A=Alcott, Louisa May | B=Three Proverb Stories (Kitty's Class Day; Aunt Kipp; Psyche's Art) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+90: A=Alcott, Louisa May | B=Under the Lilacs | C=SCHOOL DAYS (ages 7–12) | D=2.0
+91: A=Alcott, Louisa May | B=Work: A Story of Experience | C=SCHOOL DAYS (ages 7–12) | D=2.0
+92: A=Aldrich, Thomas Bailey | B=An Old Town by the Sea | C=SCHOOL DAYS (ages 7–12) | D=2.0
+93: A=Aldrich, Thomas Bailey | B=The Ballad of Baby Bell, and other poems | C=SCHOOL DAYS (ages 7–12) | D=2.0
+94: A=Aldrich, Thomas Bailey | B=Cloth of Gold, and other poems | C=SCHOOL DAYS (ages 7–12) | D=2.0
+95: A=Aldrich, Thomas Bailey | B=The Course of True Love Never Did Run Smooth | C=SCHOOL DAYS (ages 7–12) | D=2.0
+96: A=Aldrich, Thomas Bailey | B=Daisy's Necklace; and What Came Of It | C=SCHOOL DAYS (ages 7–12) | D=2.0
+97: A=Aldrich, Thomas Bailey | B=Flower and Thorn, later poems | C=SCHOOL DAYS (ages 7–12) | D=2.0
+98: A=Aldrich, Thomas Bailey | B=Friar Jerome's Beautiful Book | C=SCHOOL DAYS (ages 7–12) | D=2.0
+99: A=Aldrich, Thomas Bailey | B=The Little Violinist | C=SCHOOL DAYS (ages 7–12) | D=2.0
+100: A=Aldrich, Thomas Bailey | B=Marjorie Daw | C=SCHOOL DAYS (ages 7–12) | D=2.0
+101: A=Aldrich, Thomas Bailey | B=A Midnight Fantasy | C=SCHOOL DAYS (ages 7–12) | D=2.0
+102: A=Aldrich, Thomas Bailey | B=Miss Mehitable's Son | C=SCHOOL DAYS (ages 7–12) | D=2.0
+103: A=Aldrich, Thomas Bailey | B=Our New Neighbors at Ponkapog | C=SCHOOL DAYS (ages 7–12) | D=2.0
+104: A=Aldrich, Thomas Bailey | B=Poems of T.B. Aldrich | C=SCHOOL DAYS (ages 7–12) | D=2.0
+105: A=Aldrich, Thomas Bailey | B=The Stillwater Tragedy | C=SCHOOL DAYS (ages 7–12) | D=2.0
+106: A=Aldrich, Thomas Bailey | B=Story of a Bad Boy | C=SCHOOL DAYS (ages 7–12) | D=2.0
+107: A=Aldrich, Thomas Bailey | B=Two Bites at a Cherry, with other tales | C=SCHOOL DAYS (ages 7–12) | D=2.0
+108: A=Belloc, Hilaire | B=Cautionary Tales for Children (designed for the admonition of children between the ages of 8 and 14) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+109: A=Browning, Robert | B=The Pied Piper of Hamelin (illustrated by Kate Greenaway [Warne]) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+110: A=Burnett, Frances Hodgson | B=Little Lord Fauntleroy | C=SCHOOL DAYS (ages 7–12) | D=2.0
+111: A=Burnett, Frances Hodgson | B=The Secret Garden | C=SCHOOL DAYS (ages 7–12) | D=2.0
+112: A=Burroughs, Edgar Rice | B=Apache Devil | C=SCHOOL DAYS (ages 7–12) | D=2.0
+113: A=Burroughs, Edgar Rice | B=Back to the Stone Age | C=SCHOOL DAYS (ages 7–12) | D=2.0
+114: A=Burroughs, Edgar Rice | B=Chessman of Mars | C=SCHOOL DAYS (ages 7–12) | D=2.0
+115: A=Burroughs, Edgar Rice | B=John Carter of Mars | C=SCHOOL DAYS (ages 7–12) | D=2.0
+116: A=Burroughs, Edgar Rice | B=Jungle Tales of Tarzan | C=SCHOOL DAYS (ages 7–12) | D=2.0
+117: A=Burroughs, Edgar Rice | B=Tales of Three Planets | C=SCHOOL DAYS (ages 7–12) | D=2.0
+118: A=Burroughs, Edgar Rice | B=Tarzan | C=SCHOOL DAYS (ages 7–12) | D=2.0
+119: A=Burroughs, Edgar Rice | B=The Return of Tarzan | C=SCHOOL DAYS (ages 7–12) | D=2.0
+120: A=Burroughs, Edgar Rice | B=The Son of Tarzan | C=SCHOOL DAYS (ages 7–12) | D=2.0
+121: A=Cooper, James Fenimore | B=Afloat and Ashore | C=SCHOOL DAYS (ages 7–12) | D=2.0
+122: A=Cooper, James Fenimore | B=The Bravo | C=SCHOOL DAYS (ages 7–12) | D=2.0
+123: A=Cooper, James Fenimore | B=The Chainbearer | C=SCHOOL DAYS (ages 7–12) | D=2.0
+124: A=Cooper, James Fenimore | B=The Crater | C=SCHOOL DAYS (ages 7–12) | D=2.0
+125: A=Cooper, James Fenimore | B=The Deerslayer | C=SCHOOL DAYS (ages 7–12) | D=2.0
+126: A=Cooper, James Fenimore | B=The Headsman | C=SCHOOL DAYS (ages 7–12) | D=2.0
+127: A=Cooper, James Fenimore | B=The Heidenmauer | C=SCHOOL DAYS (ages 7–12) | D=2.0
+128: A=Cooper, James Fenimore | B=Home as Found | C=SCHOOL DAYS (ages 7–12) | D=2.0
+129: A=Cooper, James Fenimore | B=Homeward Bound | C=SCHOOL DAYS (ages 7–12) | D=2.0
+130: A=Cooper, James Fenimore | B=Jack Tier | C=SCHOOL DAYS (ages 7–12) | D=2.0
+131: A=Cooper, James Fenimore | B=The Last of the Mohicans | C=SCHOOL DAYS (ages 7–12) | D=2.0
+132: A=Cooper, James Fenimore | B=Lionel Lincoln | C=SCHOOL DAYS (ages 7–12) | D=2.0
+133: A=Cooper, James Fenimore | B=Mercedes of Castile | C=SCHOOL DAYS (ages 7–12) | D=2.0
+134: A=Cooper, James Fenimore | B=Miles Wallingford | C=SCHOOL DAYS (ages 7–12) | D=2.0
+135: A=Cooper, James Fenimore | B=The Monikins | C=SCHOOL DAYS (ages 7–12) | D=2.0
+136: A=Cooper, James Fenimore | B=The Oak Openings | C=SCHOOL DAYS (ages 7–12) | D=2.0
+137: A=Cooper, James Fenimore | B=The Path Finder | C=SCHOOL DAYS (ages 7–12) | D=2.0
+138: A=Cooper, James Fenimore | B=The Pioneers | C=SCHOOL DAYS (ages 7–12) | D=2.0
+139: A=Cooper, James Fenimore | B=The Pilot | C=SCHOOL DAYS (ages 7–12) | D=2.0
+140: A=Cooper, James Fenimore | B=The Prairie | C=SCHOOL DAYS (ages 7–12) | D=2.0
+141: A=Cooper, James Fenimore | B=Precaution | C=SCHOOL DAYS (ages 7–12) | D=2.0
+142: A=Cooper, James Fenimore | B=The Red Rover | C=SCHOOL DAYS (ages 7–12) | D=2.0
+143: A=Cooper, James Fenimore | B=The Redskins | C=SCHOOL DAYS (ages 7–12) | D=2.0
+144: A=Cooper, James Fenimore | B=Satan's Toe | C=SCHOOL DAYS (ages 7–12) | D=2.0
+145: A=Cooper, James Fenimore | B=The Sea Lions | C=SCHOOL DAYS (ages 7–12) | D=2.0
+146: A=Cooper, James Fenimore | B=The Two Admirals | C=SCHOOL DAYS (ages 7–12) | D=2.0
+147: A=Cooper, James Fenimore | B=The Water-Witch | C=SCHOOL DAYS (ages 7–12) | D=2.0
+148: A=Cooper, James Fenimore | B=The Ways of the Hour | C=SCHOOL DAYS (ages 7–12) | D=2.0
+149: A=Cooper, James Fenimore | B=The Wing-and-Wing | C=SCHOOL DAYS (ages 7–12) | D=2.0
+150: A=Cooper, James Fenimore | B=The Ways of Wish-ton-wish | C=SCHOOL DAYS (ages 7–12) | D=2.0
+151: A=Cooper, James Fenimore | B=Wyandotte | C=SCHOOL DAYS (ages 7–12) | D=2.0
+152: A=Cowper, William | B=John Gilpin's Ride (illustrated by Caldecott [Warne]) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+153: A=Dana, Richard Henry | B=Two Years Before the Mast | C=SCHOOL DAYS (ages 7–12) | D=2.0
+154: A=Defoe, Daniel | B=Robinson Crusoe | C=SCHOOL DAYS (ages 7–12) | D=2.0
+155: A=Dickens, Charles | B=A Christmas Carol | C=SCHOOL DAYS (ages 7–12) | D=2.0
+156: A=Dickens, Charles | B=Cricket on the Hearth | C=SCHOOL DAYS (ages 7–12) | D=2.0
+157: A=Dickens, Charles | B=David Copperfield (may be reserved for adolescence or reread) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+158: A=Dickens, Charles | B=Oliver Twist (may be reserved for adolescence or reread) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+159: A=Dodge, Mary Mapes | B=Hans Brinker | C=SCHOOL DAYS (ages 7–12) | D=2.0
+160: A=Garland, Hamlin | B=The Light of the Star | C=SCHOOL DAYS (ages 7–12) | D=2.0
+161: A=Garland, Hamlin | B=The Long Trail | C=SCHOOL DAYS (ages 7–12) | D=2.0
+162: A=Garland, Hamlin | B=Main-Traveled Roads | C=SCHOOL DAYS (ages 7–12) | D=2.0
+163: A=Garland, Hamlin | B=Prairie Folks | C=SCHOOL DAYS (ages 7–12) | D=2.0
+164: A=Garland, Hamlin | B=Son of the Middle Border | C=SCHOOL DAYS (ages 7–12) | D=2.0
+165: A=Garland, Hamlin | B=The Spirit of Sweetwater | C=SCHOOL DAYS (ages 7–12) | D=2.0
+166: A=Hawthorne, Nathaniel | B=Tanglewood Tales | C=SCHOOL DAYS (ages 7–12) | D=2.0
+167: A=Henry, G.A. (George Alfred) | B=a hundred "Boys' Books" | C=SCHOOL DAYS (ages 7–12) | D=2.0
+168: A=Irving, Washington | B=Sketch Book | C=SCHOOL DAYS (ages 7–12) | D=2.0
+169: A=James, Will (illustrated by James [Scribner's]) | B=Book of Cowboys | C=SCHOOL DAYS (ages 7–12) | D=2.0
+170: A=James, Will | B=Lone Cowboy | C=SCHOOL DAYS (ages 7–12) | D=2.0
+171: A=James, Will | B=Smoky | C=SCHOOL DAYS (ages 7–12) | D=2.0
+172: A=Kingsley, Charles | B=Westward Ho! | C=SCHOOL DAYS (ages 7–12) | D=2.0
+173: A=Kipling, Rudyard | B=Captains Courageous | C=SCHOOL DAYS (ages 7–12) | D=2.0
+174: A=Kipling, Rudyard | B=Kim | C=SCHOOL DAYS (ages 7–12) | D=2.0
+175: A=Kipling, Rudyard | B=Stalky and Co. (illustrated by Miller) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+176: A=Longfellow, Henry Wadsworth | B=Evangeline | C=SCHOOL DAYS (ages 7–12) | D=2.0
+177: A=Longfellow, Henry Wadsworth | B=Hiawatha | C=SCHOOL DAYS (ages 7–12) | D=2.0
+178: A=MacDonald, George | B=The Princess and Curdie | C=SCHOOL DAYS (ages 7–12) | D=2.0
+179: A=MacDonald, George | B=The Princess and the Goblin | C=SCHOOL DAYS (ages 7–12) | D=2.0
+180: A=Marryat, Fredrick | B=Masterman Ready | C=SCHOOL DAYS (ages 7–12) | D=2.0
+181: A=Marryat, Fredrick | B=Mr. Midshipman Easy | C=SCHOOL DAYS (ages 7–12) | D=2.0
+182: A=Masefield, John | B=Jim Davis | C=SCHOOL DAYS (ages 7–12) | D=2.0
+183: A=Pyle, Howard | B=Otto of the Silver Hand | C=SCHOOL DAYS (ages 7–12) | D=2.0
+184: A=Pyle, Howard | B=Robin Hood (illustrated by Pyle [Dover]) | C=SCHOOL DAYS (ages 7–12) | D=2.0
+185: A=Sewall, Anna | B=Black Beauty | C=SCHOOL DAYS (ages 7–12) | D=2.0
+186: A=Shakespeare, William | B=Comedy of Errors | C=SCHOOL DAYS (ages 7–12) | D=2.0
+187: A=Spyri, Johanna | B=Cornelli | C=SCHOOL DAYS (ages 7–12) | D=2.0
+188: A=Spyri, Johanna | B=Heidi | C=SCHOOL DAYS (ages 7–12) | D=2.0
+189: A=Stevenson, Robert Louis (preferably illustrated by Wyeth) | B=Across the Plains | C=SCHOOL DAYS (ages 7–12) | D=2.0
+190: A=Stevenson, Robert Louis | B=From Clyde to Sandy Hook | C=SCHOOL DAYS (ages 7–12) | D=2.0
+191: A=Stevenson, Robert Louis | B=Kidnapped | C=SCHOOL DAYS (ages 7–12) | D=2.0
+192: A=Stevenson, Robert Louis | B=The Silverado Squatters | C=SCHOOL DAYS (ages 7–12) | D=2.0
+193: A=Stevenson, Robert Louis | B=Treasure Island | C=SCHOOL DAYS (ages 7–12) | D=2.0
+194: A=Stowe, Harriet Beecher | B=Uncle Tom's Cabin | C=SCHOOL DAYS (ages 7–12) | D=2.0
+195: A=Stratton-Porter, Gene | B=At the Foot of the Rainbow | C=SCHOOL DAYS (ages 7–12) | D=2.0
+196: A=Stratton-Porter, Gene | B=A Daughter of the Land | C=SCHOOL DAYS (ages 7–12) | D=2.0
+197: A=Stratton-Porter, Gene | B=Freckles | C=SCHOOL DAYS (ages 7–12) | D=2.0
+198: A=Stratton-Porter, Gene | B=A Girl of the Limberlost | C=SCHOOL DAYS (ages 7–12) | D=2.0
+199: A=Stratton-Porter, Gene | B=The Harvester | C=SCHOOL DAYS (ages 7–12) | D=2.0
+200: A=Stratton-Porter, Gene | B=Her Father's Daughter | C=SCHOOL DAYS (ages 7–12) | D=2.0
+201: A=Stratton-Porter, Gene | B=The Magic Garden | C=SCHOOL DAYS (ages 7–12) | D=2.0
+202: A=Stratton-Porter, Gene | B=Michael O'Halloran | C=SCHOOL DAYS (ages 7–12) | D=2.0
+203: A=Tarkington, Booth | B=Penrod, and others in the series | C=SCHOOL DAYS (ages 7–12) | D=2.0
+204: A='Til Eulenspiegel (translated by Mackenzie) | B=98 | D=2.0
+205: A=Twain, Mark | B=Huckleberry Finn | C=SCHOOL DAYS (ages 7–12) | D=2.0
+206: A=Twain, Mark | B=The Prince and the Pauper | C=SCHOOL DAYS (ages 7–12) | D=2.0
+207: A=Twain, Mark | B=Tom Sawyer | C=SCHOOL DAYS (ages 7–12) | D=2.0
+208: A=Verne, Jules | B=20,000 Leagues Under the Sea | C=SCHOOL DAYS (ages 7–12) | D=2.0
+209: A=Verne, Jules | B=800 Leagues on the Amazon | C=SCHOOL DAYS (ages 7–12) | D=2.0
+210: A=Verne, Jules | B=Around the World in 80 Days | C=SCHOOL DAYS (ages 7–12) | D=2.0
+211: A=Verne, Jules | B=Caesar Cascabel | C=SCHOOL DAYS (ages 7–12) | D=2.0
+212: A=Verne, Jules | B=From the Earth to the Moon | C=SCHOOL DAYS (ages 7–12) | D=2.0
+213: A=Verne, Jules | B=Hector Servadac | C=SCHOOL DAYS (ages 7–12) | D=2.0
+214: A=Verne, Jules | B=Journey into the Interior of the Earth | C=SCHOOL DAYS (ages 7–12) | D=2.0
+215: A=Verne, Jules | B=The Lighthouse at the End of the World | C=SCHOOL DAYS (ages 7–12) | D=2.0
+216: A=Verne, Jules | B=Mysterious Island | C=SCHOOL DAYS (ages 7–12) | D=2.0
+217: A=Verne, Jules | B=On the Track | C=SCHOOL DAYS (ages 7–12) | D=2.0
+218: A=Verne, Jules | B=Voyages and Adventures of Captain Hatteras | C=SCHOOL DAYS (ages 7–12) | D=2.0
+219: A=Wilder, Laura Ingalls | B=Little House in the Big Woods | C=SCHOOL DAYS (ages 7–12) | D=2.0
+220: A=Wilder, Laura Ingalls | B=Little House on the Prairie | C=SCHOOL DAYS (ages 7–12) | D=2.0
+221: A=Wilder, Laura Ingalls | B=Farmer Boy | C=SCHOOL DAYS (ages 7–12) | D=2.0
+222: A=Wilder, Laura Ingalls | B=On the Banks of Plum Creek | C=SCHOOL DAYS (ages 7–12) | D=2.0
+223: A=Wilder, Laura Ingalls | B=By the Shores of Silver Lake | C=SCHOOL DAYS (ages 7–12) | D=2.0
+224: A=Wilder, Laura Ingalls | B=The Long Winter | C=SCHOOL DAYS (ages 7–12) | D=2.0
+225: A=Wilder, Laura Ingalls | B=Little Town on the Prairie | C=SCHOOL DAYS (ages 7–12) | D=2.0
+226: A=Wilder, Laura Ingalls | B=These Happy Golden Years | C=SCHOOL DAYS (ages 7–12) | D=2.0
+227: A=Wister, Owen | B=Indispensable Information for Infants | C=SCHOOL DAYS (ages 7–12) | D=2.0
+228: A=Wyss, Johann | B=Swiss Family Robinson | C=SCHOOL DAYS (ages 7–12) | D=2.0
+229: A=Wyss, Johann | B=Willis the Pilot | C=SCHOOL DAYS (ages 7–12) | D=2.0
+230: A=Andersen, Hans Christian | B=Pictures of Travel in Sweden, Among the Hartz Mountains, and in Switzerland | C=ADOLESCENCE (ages 12–16) | D=3.0
+231: A=Brontë, Charlotte | B=Jane Eyre | C=ADOLESCENCE (ages 12–16) | D=3.0
+232: A=Brontë, Charlotte | B=Wuthering Heights | C=ADOLESCENCE (ages 12–16) | D=3.0
+233: A=Collins, Wilkie | B=After Dark | C=ADOLESCENCE (ages 12–16) | D=3.0
+234: A=Collins, Wilkie | B=Antonia | C=ADOLESCENCE (ages 12–16) | D=3.0
+235: A=Collins, Wilkie | B=Armadale | C=ADOLESCENCE (ages 12–16) | D=3.0
+236: A=Collins, Wilkie | B=Basil | C=ADOLESCENCE (ages 12–16) | D=3.0
+237: A=Collins, Wilkie | B=The Black Robe | C=ADOLESCENCE (ages 12–16) | D=3.0
+238: A=Collins, Wilkie | B=Blind Love | C=ADOLESCENCE (ages 12–16) | D=3.0
+239: A=Collins, Wilkie | B="Blow Up With The Brig!" | C=ADOLESCENCE (ages 12–16) | D=3.0
+240: A=Collins, Wilkie | B=The Dead Alive | C=ADOLESCENCE (ages 12–16) | D=3.0
+241: A=Collins, Wilkie | B=The Dead Secret | C=ADOLESCENCE (ages 12–16) | D=3.0
+242: A=Collins, Wilkie | B=The Evil Genius | C=ADOLESCENCE (ages 12–16) | D=3.0
+243: A=Collins, Wilkie | B=The Fallen Leaves | C=ADOLESCENCE (ages 12–16) | D=3.0
+244: A=Collins, Wilkie | B=The Fatal Cradle | C=ADOLESCENCE (ages 12–16) | D=3.0
+245: A=Collins, Wilkie | B=Fatal Fortune | C=ADOLESCENCE (ages 12–16) | D=3.0
+246: A=Collins, Wilkie | B=The Frozen Deep | C=ADOLESCENCE (ages 12–16) | D=3.0
+247: A=Collins, Wilkie | B=The Haunted Hotel | C=ADOLESCENCE (ages 12–16) | D=3.0
+248: A=Collins, Wilkie | B=Heart and Science | C=ADOLESCENCE (ages 12–16) | D=3.0
+249: A=Collins, Wilkie | B=Hide and Seek | C=ADOLESCENCE (ages 12–16) | D=3.0
+250: A=Collins, Wilkie | B="I say no" | C=ADOLESCENCE (ages 12–16) | D=3.0
+251: A=Collins, Wilkie | B=Jezebel's Daughter | C=ADOLESCENCE (ages 12–16) | D=3.0
+252: A=Collins, Wilkie | B=The Law and the Lady | C=ADOLESCENCE (ages 12–16) | D=3.0
+253: A=Collins, Wilkie | B=The Legacy of Cain | C=ADOLESCENCE (ages 12–16) | D=3.0
+254: A=Collins, Wilkie | B=Man and Wife | C=ADOLESCENCE (ages 12–16) | D=3.0
+255: A=Collins, Wilkie | B=Miss or Mrs.? | C=ADOLESCENCE (ages 12–16) | D=3.0
+256: A=Collins, Wilkie | B=Miss Bertha and the Yankee | C=ADOLESCENCE (ages 12–16) | D=3.0
+257: A=Collins, Wilkie | B=Miss Dulane and My Lord | C=ADOLESCENCE (ages 12–16) | D=3.0
+258: A=Collins, Wilkie | B=Miss Jeromette and the Clergyman | C=ADOLESCENCE (ages 12–16) | D=3.0
+259: A=Collins, Wilkie | B=Miss Bertha and the Groom | C=ADOLESCENCE (ages 12–16) | D=3.0
+260: A=Collins, Wilkie | B=Miss Morris and the Stranger | C=ADOLESCENCE (ages 12–16) | D=3.0
+261: A=Collins, Wilkie | B=The Moonstone | C=ADOLESCENCE (ages 12–16) | D=3.0
+262: A=Collins, Wilkie | B=Mr. Captain and the Nymph | C=ADOLESCENCE (ages 12–16) | D=3.0
+263: A=Collins, Wilkie | B=Mr. Conway and the Landlady | C=ADOLESCENCE (ages 12–16) | D=3.0
+264: A=Collins, Wilkie | B=Mr. Lepel and the Housekeeper | C=ADOLESCENCE (ages 12–16) | D=3.0
+265: A=Collins, Wilkie | B=Mr. Lisimore and the Widow | C=ADOLESCENCE (ages 12–16) | D=3.0
+266: A=Collins, Wilkie | B=Mr. Marmaduke and the Minister | C=ADOLESCENCE (ages 12–16) | D=3.0
+267: A=Collins, Wilkie | B=Mr. Medhurst and the Princess | C=ADOLESCENCE (ages 12–16) | D=3.0
+268: A=Collins, Wilkie | B=Mr. Percy and the Prophet | C=ADOLESCENCE (ages 12–16) | D=3.0
+269: A=Collins, Wilkie | B=Mrs. Zant and the Ghost | C=ADOLESCENCE (ages 12–16) | D=3.0
+270: A=Collins, Wilkie | B=My Lady's Money | C=ADOLESCENCE (ages 12–16) | D=3.0
+271: A=Collins, Wilkie | B=My Miscellanies | C=ADOLESCENCE (ages 12–16) | D=3.0
+272: A=Collins, Wilkie | B=The New Magdalen | C=ADOLESCENCE (ages 12–16) | D=3.0
+273: A=Collins, Wilkie | B=No Name | C=ADOLESCENCE (ages 12–16) | D=3.0
+274: A=Collins, Wilkie | B=Poor Miss Finch | C=ADOLESCENCE (ages 12–16) | D=3.0
+275: A=Collins, Wilkie | B=The Queen of Hearts | C=ADOLESCENCE (ages 12–16) | D=3.0
+276: A=Collins, Wilkie | B=A Rogue's Life from his Birth to his Marriage | C=ADOLESCENCE (ages 12–16) | D=3.0
+277: A=Collins, Wilkie | B=The Two Destinies | C=ADOLESCENCE (ages 12–16) | D=3.0
+278: A=Collins, Wilkie | B=The Woman in White | C=ADOLESCENCE (ages 12–16) | D=3.0
+279: A=Dampier, William | B=A Voyage Round the World | C=ADOLESCENCE (ages 12–16) | D=3.0
+280: A=Daudet, Alphonse | B=Fromont Jeune | C=ADOLESCENCE (ages 12–16) | D=3.0
+281: A=Daudet, Alphonse | B=Tartarin | C=ADOLESCENCE (ages 12–16) | D=3.0
+282: A=Dickens, Charles | B=Barnaby Rudge | C=ADOLESCENCE (ages 12–16) | D=3.0
+283: A=Dickens, Charles | B=Nicholas Nickleby | C=ADOLESCENCE (ages 12–16) | D=3.0
+284: A=Dickens, Charles | B=The Old Curiosity Shop | C=ADOLESCENCE (ages 12–16) | D=3.0
+285: A=Doyle, Sir Arthur Conan | B=The Lost World | C=ADOLESCENCE (ages 12–16) | D=3.0
+286: A=Doyle, Sir Arthur Conan | B=Sherlock Holmes (series) | C=ADOLESCENCE (ages 12–16) | D=3.0
+287: A=Doyle, Sir Arthur Conan | B=White Company | C=ADOLESCENCE (ages 12–16) | D=3.0
+288: A=Du Maurier, George | B=Trilby | C=ADOLESCENCE (ages 12–16) | D=3.0
+289: A=Dumas, Alexandre | B=The Black Tulip | C=ADOLESCENCE (ages 12–16) | D=3.0
+290: A=Dumas, Alexandre | B=Three Musketeers | C=ADOLESCENCE (ages 12–16) | D=3.0
+291: A=Dumas, Alexandre | B=Twenty Years After | C=ADOLESCENCE (ages 12–16) | D=3.0
+292: A=Dumas, Alexandre | B=The Whites and The Blues | C=ADOLESCENCE (ages 12–16) | D=3.0
+293: A=Eggleston, Edward | B=Brant and Red Jacket | C=ADOLESCENCE (ages 12–16) | D=3.0
+294: A=Eggleston, Edward | B=The Circuit Rider | C=ADOLESCENCE (ages 12–16) | D=3.0
+295: A=Eggleston, Edward | B=Duffels | C=ADOLESCENCE (ages 12–16) | D=3.0
+296: A=Eggleston, Edward | B=The Graysons | C=ADOLESCENCE (ages 12–16) | D=3.0
+297: A=Eggleston, Edward | B=The Hoosier School-Boy | C=ADOLESCENCE (ages 12–16) | D=3.0
+298: A=Eggleston, Edward | B=The Hoosier Schoolmaster | C=ADOLESCENCE (ages 12–16) | D=3.0
+299: A=Eliot, George | B=Adam Bede | C=ADOLESCENCE (ages 12–16) | D=3.0
+300: A=Eliot, George | B=Middlemarch | C=ADOLESCENCE (ages 12–16) | D=3.0
+301: A=Eliot, George | B=Mill on the Floss | C=ADOLESCENCE (ages 12–16) | D=3.0
+302: A=Eliot, George | B=Romola | C=ADOLESCENCE (ages 12–16) | D=3.0
+303: A=Eliot, George | B=Silas Marner | C=ADOLESCENCE (ages 12–16) | D=3.0
+304: A=Fabre, Henri | B=selections from Souvenirs Entomologiques | C=ADOLESCENCE (ages 12–16) | D=3.0
+305: A=Gray, Zane | B=The Call of the Canyon | C=ADOLESCENCE (ages 12–16) | D=3.0
+306: A=Gray, Zane | B=Desert Gold | C=ADOLESCENCE (ages 12–16) | D=3.0
+307: A=Gray, Zane | B=The Desert of Wheat | C=ADOLESCENCE (ages 12–16) | D=3.0
+308: A=Gray, Zane | B=Fighting Caravans | C=ADOLESCENCE (ages 12–16) | D=3.0
+309: A=Gray, Zane | B=The Last of the Plainsmen | C=ADOLESCENCE (ages 12–16) | D=3.0
+310: A=Gray, Zane | B=The Last Trail | C=ADOLESCENCE (ages 12–16) | D=3.0
+311: A=Gray, Zane | B=Nevada | C=ADOLESCENCE (ages 12–16) | D=3.0
+312: A=Gray, Zane | B=Riders of the Purple Sage | C=ADOLESCENCE (ages 12–16) | D=3.0
+313: A=Haggard, H. Rider (Henry Rider) | B=Allan and the Holy Flower | C=ADOLESCENCE (ages 12–16) | D=3.0
+314: A=Haggard, H. Rider | B=Allan and the Ice-Gods | C=ADOLESCENCE (ages 12–16) | D=3.0
+315: A=Haggard, H. Rider | B=Allan's Wife, and Other Tales | C=ADOLESCENCE (ages 12–16) | D=3.0
+316: A=Haggard, H. Rider | B=Allan Quatermain | C=ADOLESCENCE (ages 12–16) | D=3.0
+317: A=Haggard, H. Rider | B=Ayesha | C=ADOLESCENCE (ages 12–16) | D=3.0
+318: A=Haggard, H. Rider | B=Child of the Storm | C=ADOLESCENCE (ages 12–16) | D=3.0
+319: A=Haggard, H. Rider | B=Colonel Quartich, V.C. | C=ADOLESCENCE (ages 12–16) | D=3.0
+320: A=Haggard, H. Rider | B=Dr. Therne | C=ADOLESCENCE (ages 12–16) | D=3.0
+321: A=Haggard, H. Rider | B=Joan Haste | C=ADOLESCENCE (ages 12–16) | D=3.0
+322: A=Haggard, H. Rider | B=King Solomon's Mines | C=ADOLESCENCE (ages 12–16) | D=3.0
+323: A=Haggard, H. Rider | B=Montezuma's Daughter | C=ADOLESCENCE (ages 12–16) | D=3.0
+324: A=Haggard, H. Rider | B=The People of the Mist | C=ADOLESCENCE (ages 12–16) | D=3.0
+325: A=Haggard, H. Rider | B=She | C=ADOLESCENCE (ages 12–16) | D=3.0
+326: A=Haggard, H. Rider | B=Treasure of the Lake | C=ADOLESCENCE (ages 12–16) | D=3.0
+327: A=Hughes, Thomas | B=Tom Brown's School Days | C=ADOLESCENCE (ages 12–16) | D=3.0
+328: A=Hughes, Thomas | B=Tom Brown at Oxford | C=ADOLESCENCE (ages 12–16) | D=3.0
+329: A=Hugo, Victor | B=Les Misérables | C=ADOLESCENCE (ages 12–16) | D=3.0
+330: A=Hugo, Victor | B=Hunchback of Notre Dame | C=ADOLESCENCE (ages 12–16) | D=3.0
+331: A=Hugo, Victor | B=Quatre-vingt-treize | C=ADOLESCENCE (ages 12–16) | D=3.0
+332: A=Ibanez, Blasco | B=Blood and Sand | C=ADOLESCENCE (ages 12–16) | D=3.0
+333: A=Ibanez, Blasco | B=Four Horseman of the Apocalypse | C=ADOLESCENCE (ages 12–16) | D=3.0
+334: A=Irving, Washington | B=The Alhambra | C=ADOLESCENCE (ages 12–16) | D=3.0
+335: A=Irving, Washington | B=Tales | C=ADOLESCENCE (ages 12–16) | D=3.0
+336: A=Kingsley, Charles | B=Hereward the Wake | C=ADOLESCENCE (ages 12–16) | D=3.0
+337: A=Le Sage, Alain | B=Gil Blas | C=ADOLESCENCE (ages 12–16) | D=3.0
+338: A=MacDonald, George | B=Lilith | C=ADOLESCENCE (ages 12–16) | D=3.0
+339: A=Park, Mungo | B=Travels in Africa | C=ADOLESCENCE (ages 12–16) | D=3.0
+340: A=Parkman, Francis | B=Oregon Trail | C=ADOLESCENCE (ages 12–16) | D=3.0
+341: A=Poe, Edgar Allen | B=Tales and poems | C=ADOLESCENCE (ages 12–16) | D=3.0
+342: A=Polo, Marco | B=Travels | C=ADOLESCENCE (ages 12–16) | D=3.0
+343: A=Reade, Charles | B=The Cloister and the Hearth | C=ADOLESCENCE (ages 12–16) | D=3.0
+344: A=Rhodes, Eugene | B=Best Novels, and Stories (edited by Dobie) | C=ADOLESCENCE (ages 12–16) | D=3.0
+345: A=Scott, Sir Walter | B=Ivanhoe | C=ADOLESCENCE (ages 12–16) | D=3.0
+346: A=Scott, Sir Walter | B=Kenilworth | C=ADOLESCENCE (ages 12–16) | D=3.0
+347: A=Scott, Sir Walter | B=Rob Roy | C=ADOLESCENCE (ages 12–16) | D=3.0
+348: A=Scott, Sir Walter | B=The Talisman | C=ADOLESCENCE (ages 12–16) | D=3.0
+349: A=Shakespeare, William | B=Merchant of Venice | C=ADOLESCENCE (ages 12–16) | D=3.0
+350: A=Shakespeare, William | B=Midsummer Night's Dream | C=ADOLESCENCE (ages 12–16) | D=3.0
+351: A=Shakespeare, William | B=Romeo and Juliet | C=ADOLESCENCE (ages 12–16) | D=3.0
+352: A=Shelley, Mary | B=Frankenstein | C=ADOLESCENCE (ages 12–16) | D=3.0
+353: A=Sienkiewicz, Henryk | B=With Fire and Sword | C=ADOLESCENCE (ages 12–16) | D=3.0
+354: A=Sienkiewicz, Henryk | B=Quo Vadis | C=ADOLESCENCE (ages 12–16) | D=3.0
+355: A=Stevenson, Robert Louis | B=The Master of Ballantrae | C=ADOLESCENCE (ages 12–16) | D=3.0
+356: A=Stevenson, Robert Louis | B=Prince Otto | C=ADOLESCENCE (ages 12–16) | D=3.0
+357: A=Stevenson, Robert Louis | B=The Strange Case of Dr. Jekyll and Mr. Hyde | C=ADOLESCENCE (ages 12–16) | D=3.0
+358: A=Swift, Jonathan | B=Gulliver's Travels | C=ADOLESCENCE (ages 12–16) | D=3.0
+359: A=Wallace, Edgar | B=Sanders of the River | C=ADOLESCENCE (ages 12–16) | D=3.0
+360: A=Wallace, Edgar | B=Again Sanders | C=ADOLESCENCE (ages 12–16) | D=3.0
+361: A=Wallace, Edgar | B=Bones (Further Adventures in Mr. Commissioner Sanders' Country) | C=ADOLESCENCE (ages 12–16) | D=3.0
+362: A=Wallace, Edgar | B=Bosambo of the River | C=ADOLESCENCE (ages 12–16) | D=3.0
+363: A=Wallace, Edgar | B=Diana of Kara-Kara | C=ADOLESCENCE (ages 12–16) | D=3.0
+364: A=Wallace, Edgar | B=The Double | C=ADOLESCENCE (ages 12–16) | D=3.0
+365: A=Wallace, Edgar | B=Four Just Men | C=ADOLESCENCE (ages 12–16) | D=3.0
+366: A=Wallace, Edgar | B=The Girl from Scotland Yard | C=ADOLESCENCE (ages 12–16) | D=3.0
+367: A=Wallace, Edgar | B=The Man Who Knew | C=ADOLESCENCE (ages 12–16) | D=3.0
+368: A=Wallace, Edgar | B=The People of the River | C=ADOLESCENCE (ages 12–16) | D=3.0
+369: A=Wallace, Edgar | B=The Sinister Man | C=ADOLESCENCE (ages 12–16) | D=3.0
+370: A=Wells, H.G. | B=The First Men in the Moon | C=ADOLESCENCE (ages 12–16) | D=3.0
+371: A=Wells, H.G. | B=The Food of the Gods | C=ADOLESCENCE (ages 12–16) | D=3.0
+372: A=Wells, H.G. | B=In the Days of the Comet | C=ADOLESCENCE (ages 12–16) | D=3.0
+373: A=Wells, H.G. | B=The Invisible Man | C=ADOLESCENCE (ages 12–16) | D=3.0
+374: A=Wells, H.G. | B=The Island of Dr. Moreau | C=ADOLESCENCE (ages 12–16) | D=3.0
+375: A=Wells, H.G. | B=The Time Machine | C=ADOLESCENCE (ages 12–16) | D=3.0
+376: A=Wells, H.G. | B=The War of the Worlds | C=ADOLESCENCE (ages 12–16) | D=3.0
+377: A=Wister, Owen | B=The Dragon of Wantley | C=ADOLESCENCE (ages 12–16) | D=3.0
+378: A=Wister, Owen | B=The Jimmyjohn Boss and Other Stories | C=ADOLESCENCE (ages 12–16) | D=3.0
+379: A=Wister, Owen | B=Lady Baltimore | C=ADOLESCENCE (ages 12–16) | D=3.0
+380: A=Wister, Owen | B=Lin McLean | C=ADOLESCENCE (ages 12–16) | D=3.0
+381: A=Wister, Owen | B=Members of the Family | C=ADOLESCENCE (ages 12–16) | D=3.0
+382: A=Wister, Owen | B=The Virginian | C=ADOLESCENCE (ages 12–16) | D=3.0
+383: A=Andersen, Hans Christian | B=The Fairy Tale of My Life: An Autobiography | C=YOUTH (ages 16–20) | D=4.0
+384: A=Austen, Jane | B=Emma | C=YOUTH (ages 16–20) | D=4.0
+385: A=Austen, Jane | B=Lady Susan | C=YOUTH (ages 16–20) | D=4.0
+386: A=Austen, Jane | B=Mansfield Park | C=YOUTH (ages 16–20) | D=4.0
+387: A=Austen, Jane | B=Northanger Abbey | C=YOUTH (ages 16–20) | D=4.0
+388: A=Austen, Jane | B=Pride and Prejudice | C=YOUTH (ages 16–20) | D=4.0
+389: A=Austen, Jane | B=Persuasion | C=YOUTH (ages 16–20) | D=4.0
+390: A=Austen, Jane | B=Sense and Sensibility | C=YOUTH (ages 16–20) | D=4.0
+391: A=Austen, Jane | B=The Watsons | C=YOUTH (ages 16–20) | D=4.0
+392: A=Balzac, Honoré de | B=The Cabinet of Antiquities | C=YOUTH (ages 16–20) | D=4.0
+393: A=Balzac, Honoré de | B=Père Goriot | C=YOUTH (ages 16–20) | D=4.0
+394: A=Balzac, Honoré de | B=Ursule Mirouet, and Other Stories | C=YOUTH (ages 16–20) | D=4.0
+395: A=Bellamy, Edward | B=The Blindman's World and Other Stories | C=YOUTH (ages 16–20) | D=4.0
+396: A=Bellamy, Edward | B=The Duke of Stockbridge | C=YOUTH (ages 16–20) | D=4.0
+397: A=Bellamy, Edward | B=Looking Backward | C=YOUTH (ages 16–20) | D=4.0
+398: A=Bellamy, Edward | B=Equality (A Sequel to Looking Backward) | C=YOUTH (ages 16–20) | D=4.0
+399: A=Belloc, Hilaire | B=The Cruise of the "Nona" — and many others | C=YOUTH (ages 16–20) | D=4.0
+400: A=Bernanos, Georges | B=Diary of a Country Priest | C=YOUTH (ages 16–20) | D=4.0
+401: A=Bernanos, Georges | B=A Diary of my Times | C=YOUTH (ages 16–20) | D=4.0
+402: A=Bernanos, Georges | B=The Fearless Heart | C=YOUTH (ages 16–20) | D=4.0
+403: A=Bernanos, Georges | B=Joy | C=YOUTH (ages 16–20) | D=4.0
+404: A=Bernanos, Georges | B=Last Essays | C=YOUTH (ages 16–20) | D=4.0
+405: A=Blackmore, Richard Dodridge | B=Cripps the Carrier | C=YOUTH (ages 16–20) | D=4.0
+406: A=Blackmore, Richard Dodridge | B=Lorna Doone | C=YOUTH (ages 16–20) | D=4.0
+407: A=Blackmore, Richard Dodridge | B=A Tale of the South Downs | C=YOUTH (ages 16–20) | D=4.0
+408: A=Borrow, George | B=The Bible in Spain | C=YOUTH (ages 16–20) | D=4.0
+409: A=Borrow, George | B=Lavengro | C=YOUTH (ages 16–20) | D=4.0
+410: A=Borrow, George | B=Romany Rye (A sequel to Lavengro) | C=YOUTH (ages 16–20) | D=4.0
+411: A=Brontë, Charlotte | B=Jane Eyre | C=YOUTH (ages 16–20) | D=4.0
+412: A=Buchanan, John | B=A Book of Escapes and Hurried Journeys (A Collection of Stories) | C=YOUTH (ages 16–20) | D=4.0
+413: A=Buchanan, John | B=Castle Gay | C=YOUTH (ages 16–20) | D=4.0
+414: A=Buchanan, John | B=The Courts of the Morning | C=YOUTH (ages 16–20) | D=4.0
+415: A=Buchanan, John | B=The Free Fishers | C=YOUTH (ages 16–20) | D=4.0
+416: A=Buchanan, John | B=The Gap in the Curtain | C=YOUTH (ages 16–20) | D=4.0
+417: A=Buchanan, John | B=Greenmantle | C=YOUTH (ages 16–20) | D=4.0
+418: A=Buchanan, John | B=The House of the Four Winds | C=YOUTH (ages 16–20) | D=4.0
+419: A=Buchanan, John | B=Huntingtower | C=YOUTH (ages 16–20) | D=4.0
+420: A=Buchanan, John | B=Jim MacNab | C=YOUTH (ages 16–20) | D=4.0
+421: A=Buchanan, John | B=A Lodge in the Wilderness | C=YOUTH (ages 16–20) | D=4.0
+422: A=Buchanan, John | B=Midwinter | C=YOUTH (ages 16–20) | D=4.0
+423: A=Buchanan, John | B=Mr. Standfast | C=YOUTH (ages 16–20) | D=4.0
+424: A=Buchanan, John | B=The Three Hostages | C=YOUTH (ages 16–20) | D=4.0
+425: A=Buchanan, John | B=The Thirty-Nine Steps | C=YOUTH (ages 16–20) | D=4.0
+426: A=Butler, Samuel | B=Erewhon | C=YOUTH (ages 16–20) | D=4.0
+427: A=Butler, Samuel | B=The Way of All Flesh | C=YOUTH (ages 16–20) | D=4.0
+428: A=Cabell, James Branch | B=Chivalry | C=YOUTH (ages 16–20) | D=4.0
+429: A=Cabell, James Branch | B=Gallantry | C=YOUTH (ages 16–20) | D=4.0
+430: A=Cabell, James Branch | B=Jurgen | C=YOUTH (ages 16–20) | D=4.0
+431: A=Cabell, James Branch | B=The Silver Stallion | C=YOUTH (ages 16–20) | D=4.0
+432: A=Cable, George Washington | B=The Cavalier | C=YOUTH (ages 16–20) | D=4.0
+433: A=Cable, George Washington | B=Old Creole Days | C=YOUTH (ages 16–20) | D=4.0
+434: A=Cable, George Washington | B=Kincaid's Battery | C=YOUTH (ages 16–20) | D=4.0
+435: A=Cather, Willa | B=Death Comes for the Archbishop | C=YOUTH (ages 16–20) | D=4.0
+436: A=Cather, Willa | B=My Antonia | C=YOUTH (ages 16–20) | D=4.0
+437: A=Cather, Willa | B=Shadows on the Rock | C=YOUTH (ages 16–20) | D=4.0
+438: A=Chekhov, Anton | B=Stories and Plays | C=YOUTH (ages 16–20) | D=4.0
+439: A=Chesterton, G.K. | B=Everlasting Man | C=YOUTH (ages 16–20) | D=4.0
+440: A=Chesterton, G.K. | B=Father Brown series | C=YOUTH (ages 16–20) | D=4.0
+441: A=Chesterton, G.K. | B=A Man Called Thursday | C=YOUTH (ages 16–20) | D=4.0
+442: A=Columbus, Christopher | B=Four Voyages to the New World | C=YOUTH (ages 16–20) | D=4.0
+443: A=Conrad, Joseph | B=Almayer's Folly | C=YOUTH (ages 16–20) | D=4.0
+444: A=Conrad, Joseph | B=An Outcast of the Islands | C=YOUTH (ages 16–20) | D=4.0
+445: A=Conrad, Joseph | B=The Arrow of Gold | C=YOUTH (ages 16–20) | D=4.0
+446: A=Conrad, Joseph | B=Lord Jim | C=YOUTH (ages 16–20) | D=4.0
+447: A=Conrad, Joseph | B=The Nigger of the "Narcissus" | C=YOUTH (ages 16–20) | D=4.0
+448: A=Conrad, Joseph | B=Nostromo | C=YOUTH (ages 16–20) | D=4.0
+449: A=Conrad, Joseph | B=The Rescue | C=YOUTH (ages 16–20) | D=4.0
+450: A=Conrad, Joseph | B=A Set of Six | C=YOUTH (ages 16–20) | D=4.0
+451: A=Conrad, Joseph | B=Twixt Land and Sea | C=YOUTH (ages 16–20) | D=4.0
+452: A=Conrad, Joseph | B=Typhoon | C=YOUTH (ages 16–20) | D=4.0
+453: A=Conrad, Joseph | B=Victory | C=YOUTH (ages 16–20) | D=4.0
+454: A=Cook, James | B=Captain Cook's Explorations | C=YOUTH (ages 16–20) | D=4.0
+455: A=DeMaupassant, Guy | B=Stories | C=YOUTH (ages 16–20) | D=4.0
+456: A=Dickens, Charles | B=Bleak House | C=YOUTH (ages 16–20) | D=4.0
+457: A=Dickens, Charles | B=Martin Chuzzlewit | C=YOUTH (ages 16–20) | D=4.0
+458: A=Dickens, Charles | B=Our Mutual Friend | C=YOUTH (ages 16–20) | D=4.0
+459: A=Dostoyevsky, Feodor | B=Brothers Karamazov | C=YOUTH (ages 16–20) | D=4.0
+460: A=Dostoyevsky, Feodor | B=Crime and Punishment | C=YOUTH (ages 16–20) | D=4.0
+461: A=Doughty, Charles | B=Travels in Arabian Deserts | C=YOUTH (ages 16–20) | D=4.0
+462: A=Fielding, Henry | B=Jonathan Wilde | C=YOUTH (ages 16–20) | D=4.0
+463: A=Fielding, Henry | B=Tom Jones | C=YOUTH (ages 16–20) | D=4.0
+464: A=Hakluyt, Richard | B=Voyages to the New World | C=YOUTH (ages 16–20) | D=4.0
+465: A=Hawkins, Anthony Hope | B=Captain Dieppe | C=YOUTH (ages 16–20) | D=4.0
+466: A=Hawkins, Anthony Hope | B=A Change of Air | C=YOUTH (ages 16–20) | D=4.0
+467: A=Hawkins, Anthony Hope | B=Double Harness | C=YOUTH (ages 16–20) | D=4.0
+468: A=Hawkins, Anthony Hope | B=Half a Hero | C=YOUTH (ages 16–20) | D=4.0
+469: A=Hawkins, Anthony Hope | B=The King's Mirror | C=YOUTH (ages 16–20) | D=4.0
+470: A=Hawkins, Anthony Hope | B=A Man of Mark | C=YOUTH (ages 16–20) | D=4.0
+471: A=Hawkins, Anthony Hope | B=The Prisoner of Zenda | C=YOUTH (ages 16–20) | D=4.0
+472: A=Hawkins, Anthony Hope | B=Rupert of Hentzau | C=YOUTH (ages 16–20) | D=4.0
+473: A=Hawkins, Anthony Hope | B=Simon Dale | C=YOUTH (ages 16–20) | D=4.0
+474: A=Hawkins, Anthony Hope | B=The Secret of the Tower | C=YOUTH (ages 16–20) | D=4.0
+475: A=Hawkins, Anthony Hope | B=Tristram of Blent | C=YOUTH (ages 16–20) | D=4.0
+476: A=Hawthorne, Nathaniel | B=The House of Seven Gables | C=YOUTH (ages 16–20) | D=4.0
+477: A=Hawthorne, Nathaniel | B=The Scarlet Letter | C=YOUTH (ages 16–20) | D=4.0
+478: A=Hudson, W.H. | B=Green Mansions | C=YOUTH (ages 16–20) | D=4.0
+479: A=Hudson, W.H. | B=The Purple Land | C=YOUTH (ages 16–20) | D=4.0
+480: A=Irving, Washington | B=Conquest of Granada | C=YOUTH (ages 16–20) | D=4.0
+481: A=Irving, Washington | B=Life of Columbus | C=YOUTH (ages 16–20) | D=4.0
+482: A=Irving, Washington | B=Life of George Washington | C=YOUTH (ages 16–20) | D=4.0
+483: A=Jackson, Helen Hunt | B=Ramona | C=YOUTH (ages 16–20) | D=4.0
+484: A=Lagerlöf, Selma | B=Gosta Berling | C=YOUTH (ages 16–20) | D=4.0
+485: A=Lagerlöf, Selma | B=Jerusalem | C=YOUTH (ages 16–20) | D=4.0
+486: A=Loti, Pierre (Louis Marie Julien Viaud) | B=An Iceland Fisherman | C=YOUTH (ages 16–20) | D=4.0
+487: A=Loti, Pierre | B=India (Without the English) | C=YOUTH (ages 16–20) | D=4.0
+488: A=Loti, Pierre | B=On Life's By-Ways | C=YOUTH (ages 16–20) | D=4.0
+489: A=Manzoni, Alessandro | B=The Betrothed | C=YOUTH (ages 16–20) | D=4.0
+490: A=Melville, Herman | B=Billy Budd | C=YOUTH (ages 16–20) | D=4.0
+491: A=Melville, Herman | B=Moby Dick | C=YOUTH (ages 16–20) | D=4.0
+492: A=Moore, Tom | B=Lalla Rookh | C=YOUTH (ages 16–20) | D=4.0
+493: A=Morris, William | B=News from Nowhere | C=YOUTH (ages 16–20) | D=4.0
+494: A=Morris, William | B=The Roots of the Mountains | C=YOUTH (ages 16–20) | D=4.0
+495: A=Morris, William | B=Sigurd the Volsung and the Fall of the Niblungs | C=YOUTH (ages 16–20) | D=4.0
+496: A=Scott, Robert | B=Scott's Last Expedition | C=YOUTH (ages 16–20) | D=4.0
+497: A=Shakespeare, William | B=As You Like It | C=YOUTH (ages 16–20) | D=4.0
+498: A=Shakespeare, William | B=Hamlet | C=YOUTH (ages 16–20) | D=4.0
+499: A=Shakespeare, William | B=Henry IV | C=YOUTH (ages 16–20) | D=4.0
+500: A=Shakespeare, William | B=Henry V | C=YOUTH (ages 16–20) | D=4.0
+501: A=Shakespeare, William | B=Macbeth | C=YOUTH (ages 16–20) | D=4.0
+502: A=Shakespeare, William | B=The Sonnets | C=YOUTH (ages 16–20) | D=4.0
+503: A=Shakespeare, William | B=The Taming of the Shrew | C=YOUTH (ages 16–20) | D=4.0
+504: A=Shakespeare, William | B=Twelfth Night | C=YOUTH (ages 16–20) | D=4.0
+505: A=Stanley, Sir Henry Morton | B=How I Found Livingstone | C=YOUTH (ages 16–20) | D=4.0
+506: A=Stendhal | B=The Abbess of Castro and Other Tales | C=YOUTH (ages 16–20) | D=4.0
+507: A=Stendhal | B=Armance | C=YOUTH (ages 16–20) | D=4.0
+508: A=Stendhal | B=The Charterhouse of Parma | C=YOUTH (ages 16–20) | D=4.0
+509: A=Stendhal | B=Lamiel | C=YOUTH (ages 16–20) | D=4.0
+510: A=Stendhal | B=Lucien Leuwen | C=YOUTH (ages 16–20) | D=4.0
+511: A=Stendhal | B=Italian Chronicles | C=YOUTH (ages 16–20) | D=4.0
+512: A=Stendhal | B=Memories of a Tourist | C=YOUTH (ages 16–20) | D=4.0
+513: A=Stendhal | B=The Red and the Black | C=YOUTH (ages 16–20) | D=4.0
+514: A=Thackeray, William Makepeace | B=Adventures of Philip | C=YOUTH (ages 16–20) | D=4.0
+515: A=Thackeray, William Makepeace | B=Catherine | C=YOUTH (ages 16–20) | D=4.0
+516: A=Thackeray, William Makepeace | B=Denis Duval | C=YOUTH (ages 16–20) | D=4.0
+517: A=Thackeray, William Makepeace | B=Eastern Sketches | C=YOUTH (ages 16–20) | D=4.0
+518: A=Thackeray, William Makepeace | B=Henry Esmond | C=YOUTH (ages 16–20) | D=4.0
+519: A=Thackeray, William Makepeace | B=The Four Georges | C=YOUTH (ages 16–20) | D=4.0
+520: A=Thackeray, William Makepeace | B=The History of Pendennis | C=YOUTH (ages 16–20) | D=4.0
+521: A=Thackeray, William Makepeace | B=The Irish Sketchbook | C=YOUTH (ages 16–20) | D=4.0
+522: A=Thackeray, William Makepeace | B=The Newcomes | C=YOUTH (ages 16–20) | D=4.0
+523: A=Thackeray, William Makepeace | B=The Paris Sketchbook | C=YOUTH (ages 16–20) | D=4.0
+524: A=Thackeray, William Makepeace | B=Roundabout Papers | C=YOUTH (ages 16–20) | D=4.0
+525: A=Thackeray, William Makepeace | B=The Second Funeral of Napoleon | C=YOUTH (ages 16–20) | D=4.0
+526: A=Thackeray, William Makepeace | B=Sketches and Travels in London | C=YOUTH (ages 16–20) | D=4.0
+527: A=Thackeray, William Makepeace | B=Vanity Fair | C=YOUTH (ages 16–20) | D=4.0
+528: A=Thackeray, William Makepeace | B=The Virginians | C=YOUTH (ages 16–20) | D=4.0
+529: A=Tolstoy, Leo | B=Anna Karenina | C=YOUTH (ages 16–20) | D=4.0
+530: A=Tolstoy, Leo | B=Childhood, Boyhood, Youth | C=YOUTH (ages 16–20) | D=4.0
+531: A=Tolstoy, Leo | B=The Cossacks | C=YOUTH (ages 16–20) | D=4.0
+532: A=Tolstoy, Leo | B=The Death of Ivan Ilyitch and Other Stories | C=YOUTH (ages 16–20) | D=4.0
+533: A=Tolstoy, Leo | B=Fables for Children | C=YOUTH (ages 16–20) | D=4.0
+534: A=Tolstoy, Leo | B=The Kreutzer Sonata | C=YOUTH (ages 16–20) | D=4.0
+535: A=Tolstoy, Leo | B=Master and Man | C=YOUTH (ages 16–20) | D=4.0
+536: A=Tolstoy, Leo | B=My Confession | C=YOUTH (ages 16–20) | D=4.0
+537: A=Tolstoy, Leo | B=My Religion | C=YOUTH (ages 16–20) | D=4.0
+538: A=Tolstoy, Leo | B=Resurrection | C=YOUTH (ages 16–20) | D=4.0
+539: A=Tolstoy, Leo | B=Tales of Sevastopol | C=YOUTH (ages 16–20) | D=4.0
+540: A=Tolstoy, Leo | B=War and Peace | C=YOUTH (ages 16–20) | D=4.0
+541: A=Tolstoy, Leo | B=What Is to Be Done? | C=YOUTH (ages 16–20) | D=4.0
+542: A=Trollope, Anthony | B=Barchester (series) | C=YOUTH (ages 16–20) | D=4.0
+543: A=Turgenev, Ivan | B=The Brigadier and Other Stories | C=YOUTH (ages 16–20) | D=4.0
+544: A=Turgenev, Ivan | B=Dream Tales and Prose Poems | C=YOUTH (ages 16–20) | D=4.0
+545: A=Turgenev, Ivan | B=Fathers and Sons | C=YOUTH (ages 16–20) | D=4.0
+546: A=Turgenev, Ivan | B=A Hunter's Sketches | C=YOUTH (ages 16–20) | D=4.0
+547: A=Turgenev, Ivan | B=Knock, Knock, Knock and Other Stories | C=YOUTH (ages 16–20) | D=4.0
+548: A=Turgenev, Ivan | B=A Month in the Country | C=YOUTH (ages 16–20) | D=4.0
+549: A=Turgenev, Ivan | B=A Nest of Gentlefolk | C=YOUTH (ages 16–20) | D=4.0
+550: A=Turgenev, Ivan | B=Rudin | C=YOUTH (ages 16–20) | D=4.0
+551: A=Turgenev, Ivan | B=Smoke | C=YOUTH (ages 16–20) | D=4.0
+552: A=Turgenev, Ivan | B=Spring Torrents | C=YOUTH (ages 16–20) | D=4.0
+553: A=Undset, Sigrid | B=The Burning Bush | C=YOUTH (ages 16–20) | D=4.0
+554: A=Undset, Sigrid | B=Catherine of Siena | C=YOUTH (ages 16–20) | D=4.0
+555: A=Undset, Sigrid | B=The Faithful Wife | C=YOUTH (ages 16–20) | D=4.0
+556: A=Undset, Sigrid | B=Gunnar's Daughter | C=YOUTH (ages 16–20) | D=4.0
+557: A=Undset, Sigrid | B=Ida Elisabeth | C=YOUTH (ages 16–20) | D=4.0
+558: A=Undset, Sigrid | B=Jenny | C=YOUTH (ages 16–20) | D=4.0
+559: A=Undset, Sigrid | B=Kristin Lavransdatter | C=YOUTH (ages 16–20) | D=4.0
+560: A=Undset, Sigrid | B=The Master of Hestviken | C=YOUTH (ages 16–20) | D=4.0
+561: A=Undset, Sigrid | B=Saga of Saints | C=YOUTH (ages 16–20) | D=4.0
+562: A=Undset, Sigrid | B=The Wild Orchid | C=YOUTH (ages 16–20) | D=4.0
+563: A=Verga, Giovanni | B=Cavalleria Rusticana and Other Stories | C=YOUTH (ages 16–20) | D=4.0
+564: A=Verga, Giovanni | B=The House by the Medlar Tree (translated by D.H. Lawrence) | C=YOUTH (ages 16–20) | D=4.0
+565: A=Verga, Giovanni | B=Little Novels of Sicily | C=YOUTH (ages 16–20) | D=4.0
+566: A=Washington, Booker T. | B=Up From Slavery | C=YOUTH (ages 16–20) | D=4.0
