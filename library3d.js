@@ -87,17 +87,20 @@ function bookcaseWall(group, x, z0, len, side, wingBooks, startIdx, perRow) {
         const bh = 0.30 + ((hh >> 4) % 100) / 100 * 0.12;
         const col = LEATHER[hh % LEATHER.length];
         const lean = (hh % 13 === 0) ? (side * 0.09) : 0;
+        // spine texture goes on the face pointing at the aisle: +x for the left wall, -x for the right
+        const spineMat = new THREE.MeshStandardMaterial({ map: spineTex(bk.short, col, FOIL[(hh >> 3) % 3]), roughness: 0.55 });
+        const covMat = new THREE.MeshStandardMaterial({ color: col, roughness: 0.62 });
+        const darkMat = new THREE.MeshStandardMaterial({ color: new THREE.Color(col).multiplyScalar(0.6), roughness: 0.75 });
         const mats = [
-          new THREE.MeshStandardMaterial({ color: col, roughness: 0.62 }),
-          new THREE.MeshStandardMaterial({ color: col, roughness: 0.62 }),
+          side < 0 ? spineMat : darkMat,
+          side > 0 ? spineMat : darkMat,
           new THREE.MeshStandardMaterial({ color: 0xe7dcc2, roughness: 0.9 }),
-          new THREE.MeshStandardMaterial({ color: col, roughness: 0.7 }),
-          new THREE.MeshStandardMaterial({ map: spineTex(bk.short, col, FOIL[(hh >> 3) % 3]), roughness: 0.55 }),
-          new THREE.MeshStandardMaterial({ color: new THREE.Color(col).multiplyScalar(0.6), roughness: 0.75 })
+          darkMat,
+          covMat,
+          covMat
         ];
         const m = new THREE.Mesh(new THREE.BoxGeometry(0.24, bh, bw), mats);
-        m.rotation.y = side > 0 ? Math.PI / 2 : -Math.PI / 2;
-        m.rotation.z = 0; m.rotation.x = lean;
+        m.rotation.x = lean;
         m.position.set(x - side * (0.02 + (hh % 5) * 0.008), ry + bh / 2, zc2 - bw / 2);
         m.userData.i = bk.i; m.userData.baseX = m.position.x;
         group.add(m); books.push(m);
@@ -214,7 +217,7 @@ function init() {
   let tries = 0;
   function makeRenderer() {
     try {
-      renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance', preserveDrawingBuffer: true });
+      renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
     } catch (e) {
       if (++tries < 8) { setTimeout(makeRenderer, 1800); return; }
       const once = () => { removeEventListener('pointerdown', once); tries = 0; makeRenderer(); };
