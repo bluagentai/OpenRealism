@@ -165,7 +165,7 @@ function build(data) {
     const floor = new THREE.Mesh(new THREE.PlaneGeometry(HX * 2 + 1.4, len + VEST), new THREE.MeshStandardMaterial({ map: ft, roughness: 0.75 }));
     floor.rotation.x = -Math.PI / 2; floor.position.set(0, 0, z - (len + VEST) / 2); g.add(floor);
     // axis along Z (corridor); thetaStart π/2 + rotation.x π/2 puts the open half strictly overhead
-    const barrel = new THREE.Mesh(new THREE.CylinderGeometry(HX + 0.7, HX + 0.7, len + VEST, 28, 1, true, Math.PI / 2, Math.PI),
+    const barrel = new THREE.Mesh(new THREE.CylinderGeometry(HX + 0.7, HX + 0.7, len + VEST, 28, 1, true, -Math.PI / 2, Math.PI),
       new THREE.MeshStandardMaterial({ color: 0x1a120c, roughness: 0.95, side: THREE.BackSide }));
     barrel.rotation.set(Math.PI / 2, 0, 0);
     barrel.position.set(0, 3.6, z - (len + VEST) / 2); g.add(barrel);
