@@ -164,9 +164,10 @@ function build(data) {
     const ft = floorT.clone(); ft.needsUpdate = true; ft.repeat.set(2, len / 1.6);
     const floor = new THREE.Mesh(new THREE.PlaneGeometry(HX * 2 + 1.4, len + VEST), new THREE.MeshStandardMaterial({ map: ft, roughness: 0.75 }));
     floor.rotation.x = -Math.PI / 2; floor.position.set(0, 0, z - (len + VEST) / 2); g.add(floor);
-    const barrel = new THREE.Mesh(new THREE.CylinderGeometry(HX + 0.7, HX + 0.7, len + VEST, 28, 1, true, Math.PI, Math.PI),
+    // axis along Z (corridor); thetaStart π/2 + rotation.x π/2 puts the open half strictly overhead
+    const barrel = new THREE.Mesh(new THREE.CylinderGeometry(HX + 0.7, HX + 0.7, len + VEST, 28, 1, true, Math.PI / 2, Math.PI),
       new THREE.MeshStandardMaterial({ color: 0x1a120c, roughness: 0.95, side: THREE.BackSide }));
-    barrel.rotation.z = -Math.PI / 2; barrel.rotation.y = Math.PI / 2;
+    barrel.rotation.set(Math.PI / 2, 0, 0);
     barrel.position.set(0, 3.6, z - (len + VEST) / 2); g.add(barrel);
     // cornice hall names
     if (!isGB) for (const sx of [-1, 1]) {
@@ -241,6 +242,10 @@ function finishInit() {
   renderer.setSize(innerWidth, innerHeight);
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.2;
+  // own compositor layer — works around Chromium backdrop-filter-over-WebGL flip bug
+  renderer.domElement.style.display = 'block';
+  renderer.domElement.style.transform = 'translateZ(0)';
+  renderer.domElement.style.willChange = 'transform';
   host.appendChild(renderer.domElement);
   scene.add(new THREE.AmbientLight(0x2a1c10, 2.2));
   const hemi = new THREE.HemisphereLight(0x40301c, 0x0d0a06, 0.7); scene.add(hemi);
