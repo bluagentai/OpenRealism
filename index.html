@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenRealism — The Long Room</title>
+<style>body{margin:0;background:#0d0b0a;color:#e8d7b4;font:14px/1.5 Georgia,serif;display:flex;align-items:center;justify-content:center;height:100vh}</style>
+</head>
+<body>
+<div>Opening the library…</div>
+<script>
+var mobile = matchMedia('(max-width: 760px)').matches ||
+  (matchMedia('(pointer: coarse)').matches && matchMedia('(max-width: 1024px)').matches);
+var page = mobile ? '/Library%20Walk%20Mobile.dc.html' : '/Library%20Walk.dc.html';
+fetch(page)
+  .then(function(r){ if(!r.ok) throw new Error(r.status); return r.text(); })
+  .then(function(t){ document.open(); document.write(t); document.close(); })
+  .catch(function(e){ document.body.innerHTML = '<div>Could not load the site (' + e.message + '). Try again shortly.</div>'; });
+</script>
+</body>
+</html>
